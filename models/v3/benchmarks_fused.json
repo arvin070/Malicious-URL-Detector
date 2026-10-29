@@ -1,0 +1,236 @@
+{
+  "band_threshold": 71,
+  "hard_benign": {
+    "url_only": 13,
+    "fused": 2,
+    "cases": 48,
+    "by_category_url_only": {
+      "major_tech": {
+        "cases": 13,
+        "incorrect": 3,
+        "error_rate": 0.2308,
+        "mean_score": 43.9,
+        "max_score": 95
+      },
+      "reference": {
+        "cases": 7,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 29.4,
+        "max_score": 66
+      },
+      "banking_finance": {
+        "cases": 8,
+        "incorrect": 5,
+        "error_rate": 0.625,
+        "mean_score": 71.0,
+        "max_score": 93
+      },
+      "university": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 18.2,
+        "max_score": 39
+      },
+      "legitimate_login": {
+        "cases": 10,
+        "incorrect": 5,
+        "error_rate": 0.5,
+        "mean_score": 57.7,
+        "max_score": 99
+      },
+      "government": {
+        "cases": 4,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 23.5,
+        "max_score": 37
+      }
+    },
+    "by_category_fused": {
+      "major_tech": {
+        "cases": 13,
+        "incorrect": 1,
+        "error_rate": 0.0769,
+        "mean_score": 22.5,
+        "max_score": 75
+      },
+      "reference": {
+        "cases": 7,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 10.7,
+        "max_score": 43
+      },
+      "banking_finance": {
+        "cases": 8,
+        "incorrect": 1,
+        "error_rate": 0.125,
+        "mean_score": 53.6,
+        "max_score": 73
+      },
+      "university": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 7.0,
+        "max_score": 25
+      },
+      "legitimate_login": {
+        "cases": 10,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 28.5,
+        "max_score": 67
+      },
+      "government": {
+        "cases": 4,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 8.8,
+        "max_score": 23
+      }
+    },
+    "still_flagged": [
+      {
+        "url": "https://news.ycombinator.com",
+        "category": "major_tech",
+        "score": 75,
+        "flagged": true,
+        "expect": "benign"
+      },
+      {
+        "url": "https://www.wellsfargo.com",
+        "category": "banking_finance",
+        "score": 73,
+        "flagged": true,
+        "expect": "benign"
+      }
+    ]
+  },
+  "adversarial": {
+    "url_only_incorrect": 4,
+    "fused_incorrect": 2,
+    "cases": 58,
+    "by_family_fused": {
+      "encoding": {
+        "cases": 8,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 39.1,
+        "max_score": 99
+      },
+      "case": {
+        "cases": 8,
+        "incorrect": 1,
+        "error_rate": 0.125,
+        "mean_score": 57.6,
+        "max_score": 99
+      },
+      "explicit_port": {
+        "cases": 5,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 12.8,
+        "max_score": 35
+      },
+      "tracking_params": {
+        "cases": 5,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 8.0,
+        "max_score": 36
+      },
+      "www_variant": {
+        "cases": 5,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 5.2,
+        "max_score": 22
+      },
+      "fragment": {
+        "cases": 3,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      },
+      "subdomain": {
+        "cases": 3,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      },
+      "benign_param": {
+        "cases": 3,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      },
+      "homoglyph": {
+        "cases": 6,
+        "incorrect": 1,
+        "error_rate": 0.1667,
+        "mean_score": 83.0,
+        "max_score": 95
+      },
+      "punycode": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 98.8,
+        "max_score": 99
+      },
+      "brand_in_other_domain": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      }
+    },
+    "still_incorrect": [
+      {
+        "url": "https://ACCOUNTS.GOOGLE.COM/signin",
+        "expect": "benign",
+        "family": "case",
+        "note": "Hostnames are case-insensitive.",
+        "score": 80,
+        "flagged": true
+      },
+      {
+        "url": "https://g\u0456thub.\u0441om/login",
+        "expect": "phishing",
+        "family": "homoglyph",
+        "note": "Cyrillic lookalike of github.com; a different domain entirely.",
+        "score": 70,
+        "flagged": false
+      }
+    ]
+  },
+  "holdout": {
+    "url_only": {
+      "recall": 0.8839,
+      "fpr": 0.0245,
+      "precision": 0.9726,
+      "TP": 1386,
+      "FP": 39,
+      "FN": 182,
+      "TN": 1556
+    },
+    "fused": {
+      "recall": 0.8807,
+      "fpr": 0.0157,
+      "precision": 0.9822,
+      "TP": 1381,
+      "FP": 25,
+      "FN": 187,
+      "TN": 1570
+    },
+    "rows": 3163
+  },
+  "latency_ms_per_url": 35.106
+}

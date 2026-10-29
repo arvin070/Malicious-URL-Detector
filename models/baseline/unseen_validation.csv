@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+Decision Tree,0.6559,0.6245,0.7791,0.6933,0.7138
+Random Forest,0.7337,0.6869,0.8574,0.7627,0.8423
+XGBoost,0.7564,0.7212,0.8347,0.7738,0.8585
+Consensus (>=2/3),0.73,0.683,0.8568,0.7601,0.834

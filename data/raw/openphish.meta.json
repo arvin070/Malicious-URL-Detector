@@ -1,0 +1,11 @@
+{
+  "source_key": "openphish",
+  "source_name": "OpenPhish community feed",
+  "url": "https://openphish.com/feed.txt",
+  "http_status": 200,
+  "bytes": 14079,
+  "sha256": "15ce676d5e2b2ad96cc040b0ea00b6cfb47ffd90f80571f5b23ff9601b511a41",
+  "collected_at": "2026-10-04T06:27:10+00:00",
+  "licence": "Free community feed; research use with attribution, redistribution restricted",
+  "attribution": "Data from the OpenPhish community feed"
+}

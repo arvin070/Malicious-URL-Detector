@@ -1,0 +1,11 @@
+Threshold,Model,TN,FP,FN,TP,FPR,FNR
+0.50 (default),Decision Tree,563,936,179,1315,0.6244,0.1198
+0.50 (default),Random Forest,613,886,148,1346,0.5911,0.0991
+0.50 (default),XGBoost,964,535,164,1330,0.3569,0.1098
+0.50 (default),Logistic Regression,703,796,189,1305,0.531,0.1265
+0.50 (default),Consensus (majority),564,935,112,1382,0.6237,0.075
+0.7 (deployed),Decision Tree,787,712,286,1208,0.475,0.1914
+0.7 (deployed),Random Forest,1000,499,354,1140,0.3329,0.2369
+0.7 (deployed),XGBoost,1191,308,298,1196,0.2055,0.1995
+0.7 (deployed),Logistic Regression,1077,422,396,1098,0.2815,0.2651
+0.7 (deployed),Consensus (majority),926,573,229,1265,0.3823,0.1533

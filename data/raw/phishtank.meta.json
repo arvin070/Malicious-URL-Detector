@@ -1,0 +1,11 @@
+{
+  "source_key": "phishtank",
+  "source_name": "PhishTank (verified online)",
+  "url": "https://data.phishtank.com/data/online-valid.csv.gz",
+  "http_status": 200,
+  "bytes": 2569841,
+  "sha256": "9cb44d3b672ba9949ab9f2ef9245a895c587e132d631a9d8471a56a566533c3c",
+  "collected_at": "2026-10-04T06:27:08+00:00",
+  "licence": "Free for research/non-commercial use with attribution",
+  "attribution": "Data from PhishTank (OpenDNS/Cisco), phishtank.org"
+}

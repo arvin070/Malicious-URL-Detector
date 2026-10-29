@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Needed only to RELAY DNS queries upstream after they are judged safe.
+         The app never fetches, resolves or opens any URL it classifies. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- So the guard can find a real browser to hand safe links off to.
+         Android 11+ hides other packages unless they are declared. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/AppTheme">
+
+        <!-- Launcher routes to Login or Home depending on session state. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity" android:exported="false"
+            android:label="Sign in" />
+        <activity android:name=".HomeActivity" android:exported="false"
+            android:label="@string/app_name" />
+        <activity android:name=".ScanActivity" android:exported="false"
+            android:label="Scan a URL" />
+        <activity android:name=".HistoryActivity" android:exported="false"
+            android:label="Scan history" />
+        <activity android:name=".ProfileActivity" android:exported="false"
+            android:label="Profile" />
+
+        <!-- The link layer. Registering BROWSABLE for http/https puts the guard
+             in the chooser when a link is tapped; making it the default browser
+             routes every tapped link through it first. It has no UI and hands
+             safe links straight to a real browser. -->
+        <activity
+            android:name=".LinkInterceptorActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter android:priority="900">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WarningActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" />
+
+        <!-- The background layer. BIND_VPN_SERVICE is enforced by the system:
+             only Android itself may start this, and only after the user grants
+             VPN consent in a system dialog. -->
+        <service
+            android:name=".GuardVpnService"
+            android:exported="false"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="On-device DNS filtering for phishing protection" />
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

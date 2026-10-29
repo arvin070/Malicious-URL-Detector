@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { width: 260px; font-family: -apple-system, sans-serif; margin: 0; padding: 16px; background: #0d1420; color: #e7ebf3; }
+  h2 { font-size: 14px; margin-bottom: 8px; }
+  .status { display: flex; align-items: center; gap: 8px; font-size: 12px; margin-bottom: 10px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dot-ok { background: #3ddc97; }
+  .dot-bad { background: #ff6b5e; }
+  p { font-size: 11px; color: #8a93a8; line-height: 1.5; }
+</style>
+</head>
+<body>
+  <h2>🛡 AI Phishing Guard</h2>
+  <div class="status">
+    <span class="dot" id="status-dot"></span>
+    <span id="status-text">Checking...</span>
+  </div>
+  <p>Every site you visit is automatically checked against the trained AI model before it loads.</p>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+name,threshold,rule,val_auc,val_fpr_at_thr,val_recall_at_thr,ms,meets_ceiling
+XGBoost,0.63,max F1 subject to val FPR<=0.05,0.9835,0.0393,0.9201,6.5746,True
+Random Forest,0.55,max F1 subject to val FPR<=0.05,0.9799,0.0472,0.9115,10.7913,True
+Neural Net (MLP),0.81,max F1 subject to val FPR<=0.05,0.9724,0.0493,0.9051,1.0724,True
+Logistic Regression,0.64,max F1 subject to val FPR<=0.05,0.9633,0.0493,0.8651,1.1825,True
+Decision Tree,0.91,max F1 subject to val FPR<=0.05,0.9272,0.0465,0.8423,0.703,True

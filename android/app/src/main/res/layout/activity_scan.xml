@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Scan a URL" android:textSize="20sp" android:textStyle="bold"/>
+    <EditText android:id="@+id/scan_input" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="textUri" android:maxLines="3"
+        android:importantForAutofill="no" android:hint="https://example.com/path"/>
+    <CheckBox android:id="@+id/scope_hostname" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="13sp"
+        android:text="Hostname only (DNS-layer view)"/>
+    <CheckBox android:id="@+id/scope_website" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="13sp"
+        android:text="Also analyse the webpage (uses the server)"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="11sp" android:paddingBottom="6dp"
+        android:text="The page is retrieved and parsed by the URLGuard server, never by this app. GET only — no JavaScript runs, no form is submitted, no credential is sent."/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <Button android:id="@+id/scan_go" android:layout_width="0dp" android:layout_weight="1"
+          android:layout_height="wrap_content" android:text="Analyse" android:textStyle="bold"/>
+      <Button android:id="@+id/scan_clear" android:layout_width="0dp" android:layout_weight="1"
+          android:layout_height="wrap_content" android:text="Clear"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/scan_progress" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <LinearLayout android:id="@+id/result_block" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:visibility="gone" android:paddingTop="18dp">
+      <TextView android:id="@+id/r_band" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:textSize="22sp" android:textStyle="bold"/>
+      <TextView android:id="@+id/r_desc" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:textSize="13sp"/>
+      <TextView android:id="@+id/r_url" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:fontFamily="monospace"
+          android:textSize="12sp" android:paddingTop="10dp"/>
+      <TextView android:id="@+id/r_scores" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:textSize="14sp" android:paddingTop="8dp"/>
+      <TextView android:id="@+id/r_meta" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:textSize="12sp" android:paddingTop="6dp"/>
+
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:paddingTop="16dp" android:text="Detection breakdown" android:textStyle="bold"/>
+      <TextView android:id="@+id/r_breakdown" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:fontFamily="monospace" android:textSize="12sp"/>
+
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:paddingTop="16dp" android:text="Security signals" android:textStyle="bold"/>
+      <TextView android:id="@+id/r_signals" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:textSize="13sp"/>
+
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:paddingTop="16dp" android:text="URL characteristics" android:textStyle="bold"/>
+      <TextView android:id="@+id/r_chars" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:fontFamily="monospace" android:textSize="12sp"/>
+
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:paddingTop="16dp" android:text="Domain and DNS information" android:textStyle="bold"/>
+      <TextView android:id="@+id/r_dns" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:textSize="12sp"/>
+
+      <TextView android:id="@+id/r_action" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:paddingTop="16dp"
+          android:textSize="14sp" android:textStyle="bold"/>
+      <TextView android:id="@+id/r_disclaimer" android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:paddingTop="10dp" android:textSize="12sp"/>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

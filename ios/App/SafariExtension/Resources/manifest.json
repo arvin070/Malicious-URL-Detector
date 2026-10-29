@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "URLGuard",
+  "version": "1.0",
+  "description": "Warns about suspicious links in Safari using an on-device model. Does not fetch pages or send browsing data anywhere.",
+  "icons": { "128": "images/icon-128.png" },
+  "background": { "scripts": ["background.js"], "persistent": false },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["*://*/*"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["nativeMessaging", "activeTab"],
+  "host_permissions": ["*://*/*"]
+}

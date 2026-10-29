@@ -1,0 +1,11 @@
+{
+  "source_key": "urlhaus",
+  "source_name": "abuse.ch URLhaus (full dump)",
+  "url": "https://urlhaus.abuse.ch/downloads/csv/",
+  "http_status": 200,
+  "bytes": 1774857,
+  "sha256": "c54b351496ad053a41ed9aef39d4d93fa4ffb73c4a9dccf4f212b28620fd4a5c",
+  "collected_at": "2026-10-04T06:27:09+00:00",
+  "licence": "CC0 1.0 (public domain dedication)",
+  "attribution": "Data from abuse.ch URLhaus"
+}

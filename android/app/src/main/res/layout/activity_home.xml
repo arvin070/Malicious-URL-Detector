@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="20dp">
+    <TextView android:id="@+id/welcome" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="22sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/account_line" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="12sp" android:paddingBottom="6dp"/>
+    <TextView android:id="@+id/summary" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="13sp"/>
+    <TextView android:id="@+id/server_summary" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="13sp" android:paddingBottom="16dp"/>
+
+    <Button android:id="@+id/action_scan" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Scan a URL" android:textStyle="bold"/>
+    <Button android:id="@+id/action_clipboard" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Scan from clipboard"/>
+    <Button android:id="@+id/action_threats" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Recent threats"/>
+    <Button android:id="@+id/action_history" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Scan history"/>
+    <Button android:id="@+id/action_profile" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Profile and settings"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingTop="22dp" android:text="Protection layers" android:textSize="16sp"
+        android:textStyle="bold"/>
+    <Switch android:id="@+id/link_switch" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Check links I tap"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="12sp" android:paddingBottom="10dp"
+        android:text="Full URL available, so the full model runs. Scored on this device."/>
+    <Switch android:id="@+id/dns_switch" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Check DNS lookups (background)"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Hostname-based assessment only. HTTPS hides the path, so this layer sees the hostname alone and uses a separate, less accurate model. Not equivalent to full-URL analysis."/>
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>⚠ Warning: Suspected Phishing Site</title>
+<link rel="stylesheet" href="warning.css">
+</head>
+<body>
+  <div class="warning-container">
+    <div class="warning-icon">⚠</div>
+    <h1>This site was flagged as potentially dangerous</h1>
+    <p class="subtitle">Our AI model detected patterns commonly associated with phishing or malicious URLs.</p>
+
+    <div class="blocked-url-box">
+      <span class="label">Blocked URL:</span>
+      <span id="blocked-url" class="url-text"></span>
+    </div>
+
+    <div class="detail-row">
+      <span>Model consensus:</span>
+      <span id="votes-text"></span>
+    </div>
+    <div class="detail-row">
+      <span>Risk score:</span>
+      <span id="score-text"></span>
+    </div>
+
+    <div class="actions">
+      <button id="go-back-btn" class="btn btn-safe">← Go back to safety</button>
+      <button id="proceed-btn" class="btn btn-danger">Proceed anyway (not recommended)</button>
+    </div>
+
+    <p class="footnote">
+      This decision was made automatically by an AI model analyzing the URL's structure —
+      no page content was fetched. False positives can happen; use your judgment.
+    </p>
+  </div>
+
+  <script src="warning.js"></script>
+</body>
+</html>

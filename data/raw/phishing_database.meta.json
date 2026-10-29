@@ -1,0 +1,11 @@
+{
+  "source_key": "phishing_database",
+  "source_name": "Phishing.Database (active links)",
+  "url": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-links-ACTIVE.txt",
+  "http_status": 200,
+  "bytes": 65823890,
+  "sha256": "be4a179b3ac92b7135595b459c2c9867fe681c12209489dd99517db8407a67c6",
+  "collected_at": "2026-10-04T06:27:14+00:00",
+  "licence": "MIT",
+  "attribution": "Phishing.Database by Mitchell Krog (MIT)"
+}

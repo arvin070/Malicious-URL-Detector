@@ -1,0 +1,11 @@
+{
+  "source_key": "tranco",
+  "source_name": "Tranco top sites",
+  "url": "https://tranco-list.eu/top-1m.csv.zip",
+  "http_status": 200,
+  "bytes": 9689012,
+  "sha256": "11d604d8cdf9418eb85a28337deec72466dadd38be740b4c69910cf982e1c0c3",
+  "collected_at": "2026-10-04T06:25:29+00:00",
+  "licence": "Free for research; cite the Tranco paper",
+  "attribution": "Tranco list (Le Pochat et al., NDSS 2019), https://tranco-list.eu/"
+}

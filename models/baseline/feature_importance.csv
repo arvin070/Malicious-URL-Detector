@@ -1,0 +1,22 @@
+,Decision Tree,Random Forest,XGBoost
+num_digits,0.23242,0.10898,0.09801
+entropy,0.08649,0.10604,0.01958
+num_subdomains,0.1196,0.09063,0.13182
+url_length,0.05799,0.08899,0.01879
+path_length,0.09618,0.08323,0.03858
+host_length,0.05034,0.07739,0.0226
+num_slashes,0.04161,0.06869,0.04643
+num_hyphens,0.11127,0.06804,0.05725
+suspicious_word_count,0.06101,0.06146,0.18701
+num_dots,0.04831,0.05651,0.04437
+digit_ratio_in_host,0.02079,0.05232,0.07696
+tld_length,0.0277,0.03521,0.03046
+query_length,0.00716,0.03138,0.0655
+num_special_chars,0.01028,0.01951,0.02015
+num_params,0.00147,0.0194,0.02207
+is_https,0.01605,0.01652,0.01959
+num_underscores,0.0074,0.01127,0.03704
+has_at_symbol,0.00173,0.00314,0.04251
+is_shortened,0.0022,0.00073,0.0178
+has_ip,0.0,0.0005,0.0
+has_double_slash_redirect,0.0,7e-05,0.00346

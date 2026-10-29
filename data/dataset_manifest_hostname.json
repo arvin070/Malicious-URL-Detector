@@ -1,0 +1,264 @@
+{
+  "dataset_version": "URLGuard-MultiSource-2026-10-04",
+  "built_at": "2026-10-04T07:08:11+00:00",
+  "output": "data/urlguard_dataset_hostname.csv",
+  "sha256": "2c3b433000329f410f0ab469ea659533188d9ac2ead00879768f013158389447",
+  "schema": [
+    "url",
+    "label",
+    "source",
+    "label_confidence",
+    "first_seen",
+    "collected_at",
+    "registered_domain",
+    "split",
+    "temporal_split"
+  ],
+  "parameters": {
+    "seed": 42,
+    "max_per_domain": 5,
+    "val_size": 0.15,
+    "holdout_size": 0.15,
+    "temporal_quantile": 0.7,
+    "balanced": true
+  },
+  "counts": {
+    "scope": "hostname",
+    "rows_collected": 133220,
+    "dropped_malformed": 0,
+    "label_conflicts": 90,
+    "label_conflict_sources": {
+      "phishtank + tranco": 46,
+      "local_corpus + tranco": 17,
+      "local_corpus + phishtank + tranco": 11,
+      "local_corpus": 3,
+      "phishing_database + tranco": 2,
+      "openphish + phishtank + tranco": 2,
+      "local_corpus + local_hard_negatives + phishtank + tranco": 1,
+      "local_corpus + phishing_database + tranco": 1,
+      "local_corpus + phishtank + tranco + urlhaus": 1,
+      "local_corpus + tranco + urlhaus": 1
+    },
+    "dropped_duplicates": 42506,
+    "dropped_domain_cap": 17031,
+    "dropped_balancing": 16349,
+    "structural_confound_auc": {
+      "url_length": 0.7868
+    },
+    "structure_balancing": {
+      "rows_before": 57334,
+      "rows_after": 54278,
+      "dropped": 3056,
+      "target_max_auc": 0.75,
+      "max_stratum_ratio": 1.0,
+      "strata": [
+        {
+          "stratum": "(False, False, 0)",
+          "benign": 28655,
+          "malicious": 27127,
+          "floor": 27127,
+          "cap": 27127
+        },
+        {
+          "stratum": "(False, False, 1)",
+          "benign": 12,
+          "malicious": 1509,
+          "floor": 12,
+          "cap": 12
+        },
+        {
+          "stratum": "(False, False, 2)",
+          "benign": 0,
+          "malicious": 30,
+          "floor": 0,
+          "cap": 0
+        },
+        {
+          "stratum": "(False, False, 3)",
+          "benign": 0,
+          "malicious": 1,
+          "floor": 0,
+          "cap": 0
+        }
+      ]
+    },
+    "structural_confound_auc_after": {
+      "url_length": 0.7749
+    },
+    "structural_confound_resolved": false,
+    "scheme_balancing": {
+      "https_rate_before": {
+        "benign": 0.0,
+        "malicious": 0.0
+      },
+      "https_rate_after": {
+        "benign": 0.5,
+        "malicious": 0.5
+      },
+      "target": 0.5,
+      "why": "Scheme distribution differed by source, not by threat; see balance_scheme() in build_dataset.py."
+    },
+    "structural_confound_auc_final": {
+      "url_length": 0.7739,
+      "is_https": 0.5
+    },
+    "rows_final": 54278,
+    "n_malicious": 27139,
+    "n_benign": 27139,
+    "by_source": {
+      "tranco": 23449,
+      "phishtank": 13644,
+      "phishing_database": 8749,
+      "local_corpus": 5171,
+      "urlhaus": 1991,
+      "local_hard_negatives": 1200,
+      "openphish": 74
+    },
+    "by_confidence": {
+      "presumed": 23449,
+      "verified": 15635,
+      "reported": 15194
+    },
+    "split_grouped": {
+      "train": 39146,
+      "val": 6944,
+      "holdout": 8188,
+      "shared_domains_train_val": 0,
+      "shared_domains_train_holdout": 0
+    },
+    "rows_with_timestamps": 15635,
+    "dated_malicious": 15635,
+    "dated_benign": 0,
+    "temporal": {
+      "cutoff": "2026-08-04T23:16:53.400000+00:00",
+      "train": 29935,
+      "test": 12710,
+      "train_malicious": 10944,
+      "test_malicious": 4585,
+      "dropped_straddling_domains": 129,
+      "quantile": 0.7,
+      "time_ordered_side": "malicious only",
+      "caveat": "Only the malicious feeds carry timestamps. The benign side is domain-disjoint but NOT time-ordered, so this measures drift in phishing campaigns rather than a full both-sides temporal shift."
+    }
+  },
+  "sources": [
+    {
+      "source_key": "phishtank",
+      "source_name": "PhishTank (verified online)",
+      "url": "https://data.phishtank.com/data/online-valid.csv.gz",
+      "http_status": 200,
+      "bytes": 2569841,
+      "sha256": "9cb44d3b672ba9949ab9f2ef9245a895c587e132d631a9d8471a56a566533c3c",
+      "collected_at": "2026-10-04T06:27:08+00:00",
+      "licence": "Free for research/non-commercial use with attribution",
+      "attribution": "Data from PhishTank (OpenDNS/Cisco), phishtank.org",
+      "rows_parsed": 40000,
+      "label": 1,
+      "label_confidence": "verified",
+      "has_timestamps": true,
+      "notes": "Only rows with verified=yes are kept. The feed also carries submission_time, which is what makes temporal validation possible."
+    },
+    {
+      "source_key": "urlhaus",
+      "source_name": "abuse.ch URLhaus (full dump)",
+      "url": "https://urlhaus.abuse.ch/downloads/csv/",
+      "http_status": 200,
+      "bytes": 1774857,
+      "sha256": "c54b351496ad053a41ed9aef39d4d93fa4ffb73c4a9dccf4f212b28620fd4a5c",
+      "collected_at": "2026-10-04T06:27:09+00:00",
+      "licence": "CC0 1.0 (public domain dedication)",
+      "attribution": "Data from abuse.ch URLhaus",
+      "rows_parsed": 13502,
+      "label": 1,
+      "label_confidence": "verified",
+      "has_timestamps": true,
+      "notes": "Malware-distribution URLs rather than credential phishing. The FULL dump is used rather than csv_recent: it carries far more dated rows, which is what makes the temporal experiment possible. Only entries with status=online are kept."
+    },
+    {
+      "source_key": "openphish",
+      "source_name": "OpenPhish community feed",
+      "url": "https://openphish.com/feed.txt",
+      "http_status": 200,
+      "bytes": 14079,
+      "sha256": "15ce676d5e2b2ad96cc040b0ea00b6cfb47ffd90f80571f5b23ff9601b511a41",
+      "collected_at": "2026-10-04T06:27:10+00:00",
+      "licence": "Free community feed; research use with attribution, redistribution restricted",
+      "attribution": "Data from the OpenPhish community feed",
+      "rows_parsed": 300,
+      "label": 1,
+      "label_confidence": "reported",
+      "has_timestamps": false,
+      "notes": "Plain URL list with no timestamps and no per-entry verification metadata, so rows are labelled 'reported'."
+    },
+    {
+      "source_key": "phishing_database",
+      "source_name": "Phishing.Database (active links)",
+      "url": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-links-ACTIVE.txt",
+      "http_status": 200,
+      "bytes": 65823890,
+      "sha256": "be4a179b3ac92b7135595b459c2c9867fe681c12209489dd99517db8407a67c6",
+      "collected_at": "2026-10-04T06:27:14+00:00",
+      "licence": "MIT",
+      "attribution": "Phishing.Database by Mitchell Krog (MIT)",
+      "rows_parsed": 25000,
+      "label": 1,
+      "label_confidence": "reported",
+      "has_timestamps": false,
+      "notes": "Aggregated from several upstream feeds. Treated as 'reported' because entries are not individually verified here."
+    },
+    {
+      "source_key": "tranco",
+      "source_name": "Tranco top sites",
+      "url": "https://tranco-list.eu/top-1m.csv.zip",
+      "http_status": 200,
+      "bytes": 9689012,
+      "sha256": "11d604d8cdf9418eb85a28337deec72466dadd38be740b4c69910cf982e1c0c3",
+      "collected_at": "2026-10-04T06:25:29+00:00",
+      "licence": "Free for research; cite the Tranco paper",
+      "attribution": "Tranco list (Le Pochat et al., NDSS 2019), https://tranco-list.eu/",
+      "rows_parsed": 40000,
+      "label": 0,
+      "label_confidence": "presumed",
+      "has_timestamps": false,
+      "notes": "POPULARITY ranking, not a safety judgement. Popular domains do host compromised pages. Rows are 'presumed' benign and must never be described as verified-safe. Also: Tranco gives bare DOMAINS, so using it alone would make 'has a path' a perfect benign/malicious separator -- see the structural confound check in build_dataset.py."
+    },
+    {
+      "source_key": "local_corpus",
+      "source_name": "Existing URLGuard corpus",
+      "url": "data/real_urls.csv",
+      "bytes": 733031,
+      "sha256": "1c2203772dcbac0aa58772ede1349e7657447264f9efc93c053ba3c91d8038fb",
+      "collected_at": "2026-10-02T18:54:44+00:00",
+      "licence": "As per the original upstream datasets (see README section 3)",
+      "attribution": "Existing project corpus (data/real_urls.csv)",
+      "rows_parsed": 11426,
+      "label": -1,
+      "label_confidence": "reported",
+      "has_timestamps": false,
+      "notes": "Kept so the new dataset is a superset of what the previous model was validated on, and so benign rows include real deep links rather than only Tranco roots."
+    },
+    {
+      "source_key": "local_hard_negatives",
+      "source_name": "Existing hard negatives",
+      "url": "data/hard_negatives.csv",
+      "bytes": 451978,
+      "sha256": "885dc628a6bd99ad523124da0f8b0f8b149ad9ed75ce8dfd529d107718545dec",
+      "collected_at": "2026-10-02T19:20:03+00:00",
+      "licence": "As per the original upstream dataset",
+      "attribution": "Existing project hard negatives (data/hard_negatives.csv)",
+      "rows_parsed": 2992,
+      "label": 0,
+      "label_confidence": "reported",
+      "has_timestamps": false,
+      "notes": "Benign URLs that look phishing-like. Essential: without them the benign class is dominated by short clean roots."
+    }
+  ],
+  "leakage_controls": [
+    "Canonical de-duplication (scheme, www., case, trailing slash).",
+    "Splits grouped by registered domain; 0 domains shared across train/val/holdout.",
+    "At most 5 rows per registered domain, so a single campaign cannot dominate.",
+    "Temporal split drops domains that straddle the cut-off.",
+    "Holdout slice is domain-disjoint and excluded from all tuning.",
+    "Structural confound AUC reported so feed shape cannot silently stand in for the label."
+  ]
+}

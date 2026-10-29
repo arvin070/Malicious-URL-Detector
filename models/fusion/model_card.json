@@ -1,0 +1,264 @@
+{
+  "model_name": "Logistic Regression (sigmoid)",
+  "feature_names": [
+    "url_score",
+    "web_score",
+    "url_above_thr",
+    "web_above_thr",
+    "url_margin",
+    "web_margin",
+    "web_available",
+    "password_form_posts_offsite",
+    "brand_domain_mismatch",
+    "brand_lookalike_domain",
+    "brand_on_official_domain",
+    "has_credential_pair",
+    "is_login_page",
+    "any_form_offsite",
+    "num_sensitive_fields",
+    "num_hidden_elements",
+    "num_zero_size_iframes",
+    "page_is_https",
+    "tls_failed",
+    "mixed_content_resources",
+    "js_obfuscated_and_exfil",
+    "js_credential_and_exfil",
+    "js_obfuscation_patterns",
+    "js_exfiltration_patterns",
+    "js_evasion_patterns",
+    "js_redirection_patterns",
+    "redirect_hops",
+    "redirect_domain_changed",
+    "redirect_https_downgrades",
+    "redirect_start_is_shortener"
+  ],
+  "model_version": "URLGuard-FUSION-v1.0",
+  "url_model_version": "URLGuard-XGB-v3.0",
+  "web_model_version": "URLGuard-WEB-XGB-v1.0",
+  "dataset_version": "URLGuard-Web-2026-10-04",
+  "url_threshold": 0.49,
+  "web_threshold": 0.89,
+  "threshold": 0.5,
+  "calibration": {
+    "ece": 0.0213,
+    "bins": [
+      {
+        "bin": "0.0-0.1",
+        "n": 302,
+        "mean_predicted": 0.021,
+        "observed_rate": 0.0199,
+        "gap": -0.0012
+      },
+      {
+        "bin": "0.1-0.2",
+        "n": 22,
+        "mean_predicted": 0.1474,
+        "observed_rate": 0.1364,
+        "gap": -0.011
+      },
+      {
+        "bin": "0.2-0.3",
+        "n": 21,
+        "mean_predicted": 0.2424,
+        "observed_rate": 0.2381,
+        "gap": -0.0043
+      },
+      {
+        "bin": "0.3-0.4",
+        "n": 10,
+        "mean_predicted": 0.3629,
+        "observed_rate": 0.3,
+        "gap": -0.0629
+      },
+      {
+        "bin": "0.4-0.5",
+        "n": 7,
+        "mean_predicted": 0.4577,
+        "observed_rate": 0.5714,
+        "gap": 0.1138
+      },
+      {
+        "bin": "0.5-0.6",
+        "n": 6,
+        "mean_predicted": 0.5469,
+        "observed_rate": 0.8333,
+        "gap": 0.2865
+      },
+      {
+        "bin": "0.6-0.7",
+        "n": 10,
+        "mean_predicted": 0.6458,
+        "observed_rate": 1.0,
+        "gap": 0.3542
+      },
+      {
+        "bin": "0.7-0.8",
+        "n": 13,
+        "mean_predicted": 0.7539,
+        "observed_rate": 0.7692,
+        "gap": 0.0153
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 21,
+        "mean_predicted": 0.8528,
+        "observed_rate": 0.9524,
+        "gap": 0.0996
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 162,
+        "mean_predicted": 0.9782,
+        "observed_rate": 0.9938,
+        "gap": 0.0157
+      }
+    ],
+    "brier": 0.0408
+  },
+  "holdout": {
+    "Accuracy": 0.9529616724738676,
+    "Precision": 0.9716981132075472,
+    "Recall": 0.9074889867841409,
+    "F1-Score": 0.9384965831435079,
+    "ROC-AUC": 0.982759715116353,
+    "PR-AUC": 0.9813858248919461,
+    "FPR": 0.01729106628242075,
+    "FNR": 0.09251101321585903,
+    "TN": 341,
+    "FP": 6,
+    "FN": 21,
+    "TP": 206
+  },
+  "comparison": {
+    "URL only": {
+      "Accuracy": 0.9303,
+      "Precision": 0.9309,
+      "Recall": 0.8899,
+      "F1-Score": 0.9099,
+      "ROC-AUC": 0.9744,
+      "PR-AUC": 0.9719,
+      "FPR": 0.0432,
+      "FNR": 0.1101,
+      "Brier": 0.0518,
+      "ECE": 0.0269
+    },
+    "Website only": {
+      "Accuracy": 0.878,
+      "Precision": 0.852,
+      "Recall": 0.837,
+      "F1-Score": 0.8444,
+      "ROC-AUC": 0.9446,
+      "PR-AUC": 0.9262,
+      "FPR": 0.0951,
+      "FNR": 0.163,
+      "Brier": 0.0864,
+      "ECE": 0.0366
+    },
+    "Fusion (calibrated)": {
+      "Accuracy": 0.953,
+      "Precision": 0.9717,
+      "Recall": 0.9075,
+      "F1-Score": 0.9385,
+      "ROC-AUC": 0.9828,
+      "PR-AUC": 0.9814,
+      "FPR": 0.0173,
+      "FNR": 0.0925,
+      "Brier": 0.0408,
+      "ECE": 0.0213
+    }
+  },
+  "candidates": {
+    "Logistic Regression (sigmoid)": {
+      "Accuracy": 0.953,
+      "Precision": 0.9717,
+      "Recall": 0.9075,
+      "F1-Score": 0.9385,
+      "ROC-AUC": 0.9828,
+      "PR-AUC": 0.9814,
+      "FPR": 0.0173,
+      "FNR": 0.0925,
+      "Brier": 0.0408,
+      "ECE": 0.0213,
+      "Latency-ms": 3.933
+    },
+    "Logistic Regression (isotonic)": {
+      "Accuracy": 0.9495,
+      "Precision": 0.9381,
+      "Recall": 0.9339,
+      "F1-Score": 0.936,
+      "ROC-AUC": 0.9719,
+      "PR-AUC": 0.9523,
+      "FPR": 0.0403,
+      "FNR": 0.0661,
+      "Brier": 0.041,
+      "ECE": 0.0365,
+      "Latency-ms": 6.237
+    },
+    "Random Forest (sigmoid)": {
+      "Accuracy": 0.9338,
+      "Precision": 0.9315,
+      "Recall": 0.8987,
+      "F1-Score": 0.9148,
+      "ROC-AUC": 0.9846,
+      "PR-AUC": 0.9817,
+      "FPR": 0.0432,
+      "FNR": 0.1013,
+      "Brier": 0.0424,
+      "ECE": 0.0249,
+      "Latency-ms": 100.624
+    },
+    "Random Forest (isotonic)": {
+      "Accuracy": 0.9443,
+      "Precision": 0.9333,
+      "Recall": 0.9251,
+      "F1-Score": 0.9292,
+      "ROC-AUC": 0.9812,
+      "PR-AUC": 0.9774,
+      "FPR": 0.0432,
+      "FNR": 0.0749,
+      "Brier": 0.0392,
+      "ECE": 0.0218,
+      "Latency-ms": 102.746
+    },
+    "XGBoost (sigmoid)": {
+      "Accuracy": 0.9268,
+      "Precision": 0.9186,
+      "Recall": 0.8943,
+      "F1-Score": 0.9062,
+      "ROC-AUC": 0.9762,
+      "PR-AUC": 0.9695,
+      "FPR": 0.0519,
+      "FNR": 0.1057,
+      "Brier": 0.0667,
+      "ECE": 0.0461,
+      "Latency-ms": 12.49
+    },
+    "XGBoost (isotonic)": {
+      "Accuracy": 0.9268,
+      "Precision": 0.9186,
+      "Recall": 0.8943,
+      "F1-Score": 0.9062,
+      "ROC-AUC": 0.9774,
+      "PR-AUC": 0.9695,
+      "FPR": 0.0519,
+      "FNR": 0.1057,
+      "Brier": 0.0569,
+      "ECE": 0.0613,
+      "Latency-ms": 9.559
+    }
+  },
+  "inference_ms": 3.9221,
+  "n_fit": 386,
+  "n_test": 574,
+  "trained_at": "2026-10-04T13:19:19.621708+00:00",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Linux-7.2.7-arch1-1-x86_64-with-glibc2.44"
+  },
+  "limitations": [
+    "Fitted on the page dataset's validation split, which is small and inherits the takedown bias of the page corpus.",
+    "Only rows where the page was retrievable can train it, so it has never seen a row with the website layer missing.",
+    "Calibration is measured on one holdout; it is not a guarantee it holds on live traffic."
+  ],
+  "version": 1
+}

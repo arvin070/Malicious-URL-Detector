@@ -1,0 +1,235 @@
+{
+  "band_threshold": 71,
+  "hard_benign": {
+    "url_only": 18,
+    "fused": 3,
+    "cases": 48,
+    "by_category_url_only": {
+      "major_tech": {
+        "cases": 13,
+        "incorrect": 6,
+        "error_rate": 0.4615,
+        "mean_score": 53.2,
+        "max_score": 92
+      },
+      "reference": {
+        "cases": 7,
+        "incorrect": 1,
+        "error_rate": 0.1429,
+        "mean_score": 29.9,
+        "max_score": 74
+      },
+      "banking_finance": {
+        "cases": 8,
+        "incorrect": 6,
+        "error_rate": 0.75,
+        "mean_score": 70.6,
+        "max_score": 96
+      },
+      "university": {
+        "cases": 6,
+        "incorrect": 1,
+        "error_rate": 0.1667,
+        "mean_score": 26.0,
+        "max_score": 76
+      },
+      "legitimate_login": {
+        "cases": 10,
+        "incorrect": 4,
+        "error_rate": 0.4,
+        "mean_score": 60.3,
+        "max_score": 99
+      },
+      "government": {
+        "cases": 4,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 12.8,
+        "max_score": 36
+      }
+    },
+    "by_category_fused": {
+      "major_tech": {
+        "cases": 13,
+        "incorrect": 2,
+        "error_rate": 0.1538,
+        "mean_score": 31.7,
+        "max_score": 84
+      },
+      "reference": {
+        "cases": 7,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 12.3,
+        "max_score": 40
+      },
+      "banking_finance": {
+        "cases": 8,
+        "incorrect": 1,
+        "error_rate": 0.125,
+        "mean_score": 53.2,
+        "max_score": 73
+      },
+      "university": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 11.3,
+        "max_score": 50
+      },
+      "legitimate_login": {
+        "cases": 10,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 30.8,
+        "max_score": 66
+      },
+      "government": {
+        "cases": 4,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 6.2,
+        "max_score": 22
+      }
+    },
+    "still_flagged": [
+      {
+        "url": "https://www.amazon.com",
+        "category": "major_tech",
+        "score": 84,
+        "flagged": true,
+        "expect": "benign"
+      },
+      {
+        "url": "https://news.ycombinator.com",
+        "category": "major_tech",
+        "score": 72,
+        "flagged": true,
+        "expect": "benign"
+      },
+      {
+        "url": "https://www.barclays.co.uk",
+        "category": "banking_finance",
+        "score": 73,
+        "flagged": true,
+        "expect": "benign"
+      }
+    ]
+  },
+  "adversarial": {
+    "url_only_incorrect": 2,
+    "fused_incorrect": 1,
+    "cases": 58,
+    "by_family_fused": {
+      "encoding": {
+        "cases": 8,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 38.6,
+        "max_score": 99
+      },
+      "case": {
+        "cases": 8,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 57.0,
+        "max_score": 99
+      },
+      "explicit_port": {
+        "cases": 5,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 10.2,
+        "max_score": 33
+      },
+      "tracking_params": {
+        "cases": 5,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 5.2,
+        "max_score": 22
+      },
+      "www_variant": {
+        "cases": 5,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 1.4,
+        "max_score": 3
+      },
+      "fragment": {
+        "cases": 3,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      },
+      "subdomain": {
+        "cases": 3,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      },
+      "benign_param": {
+        "cases": 3,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      },
+      "homoglyph": {
+        "cases": 6,
+        "incorrect": 1,
+        "error_rate": 0.1667,
+        "mean_score": 82.5,
+        "max_score": 93
+      },
+      "punycode": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 98.7,
+        "max_score": 99
+      },
+      "brand_in_other_domain": {
+        "cases": 6,
+        "incorrect": 0,
+        "error_rate": 0.0,
+        "mean_score": 99.0,
+        "max_score": 99
+      }
+    },
+    "still_incorrect": [
+      {
+        "url": "https://m\u0456\u0441rosoft.com/login",
+        "expect": "phishing",
+        "family": "homoglyph",
+        "note": "Cyrillic lookalike of microsoft.com; a different domain entirely.",
+        "score": 69,
+        "flagged": false
+      }
+    ]
+  },
+  "holdout": {
+    "url_only": {
+      "recall": 0.9118,
+      "fpr": 0.0201,
+      "precision": 0.9787,
+      "TP": 1519,
+      "FP": 33,
+      "FN": 147,
+      "TN": 1611
+    },
+    "fused": {
+      "recall": 0.9106,
+      "fpr": 0.0164,
+      "precision": 0.9825,
+      "TP": 1517,
+      "FP": 27,
+      "FN": 149,
+      "TN": 1617
+    },
+    "rows": 3310
+  },
+  "latency_ms_per_url": 39.946
+}

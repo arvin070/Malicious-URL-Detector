@@ -1,0 +1,50 @@
+{
+  "dataset_version": "URLGuard-Web-2026-10-04",
+  "built_at": "2026-10-04T12:44:07+00:00",
+  "source_url_dataset": "data/urlguard_dataset.csv",
+  "output": "data/urlguard_web_dataset.csv",
+  "sha256": "c55b427a060a0206af2e177f6726892afef15a519282d5d01c3251450d56c1ed",
+  "n_features": 84,
+  "n_js_features": 16,
+  "n_redirect_features": 8,
+  "attempted": 11000,
+  "retrieved": 3306,
+  "dropped_parked_or_empty": 602,
+  "usable": 2704,
+  "by_label": {
+    "0": 1485,
+    "1": 1219
+  },
+  "by_split": {
+    "train": 1941,
+    "holdout": 422,
+    "val": 341
+  },
+  "retrieval_rate_by_label_pct": {
+    "0": 76.1,
+    "1": 18.5
+  },
+  "fetch_errors": {
+    "dns_failed": 5198,
+    "unreachable": 2216,
+    "not_html": 238,
+    "too_many_redirects": 16,
+    "blocked_address": 14,
+    "unexpected": 12
+  },
+  "labelling": "Labels are INHERITED from the URL dataset (weak labelling). A page is labelled phishing because its URL was, not because the page content was independently reviewed.",
+  "known_biases": [
+    "Taken-down phishing URLs often serve parking or error pages; recognisable ones are dropped, the rest is label noise.",
+    "Benign URLs that have gone dead are lost, biasing the benign side toward sites still online.",
+    "Retrieval rate differs by class, so the surviving sample is not a random sample of either class.",
+    "Pages are parsed statically; JavaScript-rendered content is invisible to these features."
+  ],
+  "safety": [
+    "GET only; no form submitted and no credential ever sent.",
+    "No JavaScript executed; HTML parsed as a static document.",
+    "No cookies stored or returned.",
+    "SSRF-guarded: private, loopback, link-local, multicast and reserved addresses refused, re-checked on every redirect.",
+    "Capped at 800,000 bytes and 5 redirects per page."
+  ],
+  "splits_inherited_from": "data/urlguard_dataset.csv"
+}

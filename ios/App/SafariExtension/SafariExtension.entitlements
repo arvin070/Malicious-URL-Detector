@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- The App Group lets the app and both extensions share one scan history
+       and one signed-in session. Without it a link checked from the share
+       sheet would not appear in the app's history. -->
+  <key>com.apple.security.application-groups</key>
+  <array>
+    <string>group.com.aics.urlguard</string>
+  </array>
+  <key>keychain-access-groups</key>
+  <array>
+    <string>$(AppIdentifierPrefix)com.aics.urlguard</string>
+  </array>
+</dict>
+</plist>

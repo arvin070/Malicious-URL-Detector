@@ -1,0 +1,29 @@
+Algorithm,Metric,random_8020,domain_disjoint,domain_cv_5fold_mean,domain_cv_5fold_std
+Decision Tree,Accuracy,0.8564,0.7618,0.8178,0.013
+Decision Tree,Precision,0.7755,0.7121,0.7474,0.022
+Decision Tree,Recall,0.8805,0.7422,0.7957,0.0519
+Decision Tree,F1-Score,0.8247,0.7269,0.7697,0.0221
+Decision Tree,ROC-AUC,0.9052,0.7994,0.8432,0.0152
+Decision Tree,FPR,0.1586,0.2235,0.1684,0.0262
+Decision Tree,FNR,0.1195,0.2578,0.2043,0.0519
+Random Forest,Accuracy,0.9183,0.8469,0.8761,0.02
+Random Forest,Precision,0.8828,0.8165,0.8236,0.0391
+Random Forest,Recall,0.9076,0.8273,0.8643,0.0272
+Random Forest,F1-Score,0.895,0.8219,0.8428,0.0236
+Random Forest,ROC-AUC,0.9753,0.9267,0.9512,0.0094
+Random Forest,FPR,0.075,0.1385,0.1165,0.031
+Random Forest,FNR,0.0924,0.1727,0.1357,0.0272
+XGBoost,Accuracy,0.9323,0.8406,0.8913,0.0192
+XGBoost,Precision,0.9315,0.8819,0.8725,0.0311
+XGBoost,Recall,0.8889,0.7234,0.8405,0.041
+XGBoost,F1-Score,0.9097,0.7948,0.8556,0.0268
+XGBoost,ROC-AUC,0.9799,0.9385,0.9593,0.0096
+XGBoost,FPR,0.0407,0.0722,0.0771,0.0224
+XGBoost,FNR,0.1111,0.2766,0.1595,0.041
+Logistic Regression,Accuracy,0.8764,0.8189,0.8495,0.016
+Logistic Regression,Precision,0.8264,0.7965,0.7898,0.0224
+Logistic Regression,Recall,0.8581,0.7734,0.829,0.0362
+Logistic Regression,F1-Score,0.842,0.7848,0.8085,0.0216
+Logistic Regression,ROC-AUC,0.9474,0.8983,0.924,0.0142
+Logistic Regression,FPR,0.1121,0.1473,0.1377,0.0189
+Logistic Regression,FNR,0.1419,0.2266,0.171,0.0362

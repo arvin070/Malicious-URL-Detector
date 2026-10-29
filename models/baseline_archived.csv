@@ -1,0 +1,11 @@
+source_file,protocol,Algorithm,Accuracy,Precision,Recall,F1-Score,ROC-AUC,Model
+models/baseline/algorithm_comparison.csv,random_8020,Decision Tree,0.8364,0.8665,0.7953,0.8294,0.9011,
+models/baseline/algorithm_comparison.csv,random_8020,Random Forest,0.8906,0.9093,0.8679,0.8881,0.9548,
+models/baseline/algorithm_comparison.csv,random_8020,XGBoost,0.8885,0.9119,0.86,0.8852,0.9561,
+models/baseline/algorithm_comparison_domain_disjoint.csv,domain_disjoint,Decision Tree,0.7456,0.8633,0.6703,0.7546,0.809,
+models/baseline/algorithm_comparison_domain_disjoint.csv,domain_disjoint,Random Forest,0.8104,0.8763,0.786,0.8287,0.8991,
+models/baseline/algorithm_comparison_domain_disjoint.csv,domain_disjoint,XGBoost,0.7876,0.8881,0.7278,0.8,0.8963,
+models/baseline/unseen_validation.csv,independent_unseen,,0.6559,0.6245,0.7791,0.6933,0.7138,Decision Tree
+models/baseline/unseen_validation.csv,independent_unseen,,0.7337,0.6869,0.8574,0.7627,0.8423,Random Forest
+models/baseline/unseen_validation.csv,independent_unseen,,0.7564,0.7212,0.8347,0.7738,0.8585,XGBoost
+models/baseline/unseen_validation.csv,independent_unseen,,0.73,0.683,0.8568,0.7601,0.834,Consensus (>=2/3)

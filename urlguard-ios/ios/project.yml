@@ -1,0 +1,171 @@
+# XcodeGen spec. Generates URLGuard.xcodeproj from this file so the project
+# structure is reviewable text rather than an unmergeable pbxproj blob.
+#
+#   brew install xcodegen onnxruntime
+#   cd ios && xcodegen generate && open URLGuard.xcodeproj
+#
+# The model assets are REFERENCED from the Android asset directory rather than
+# copied. One model file, one metadata file, one suffix list, shipped to both
+# platforms -- so iOS and Android cannot drift onto different model versions,
+# which is exactly what happened when the Android build was left on v2 while
+# the server served v3.
+name: URLGuard
+options:
+  bundleIdPrefix: com.aics
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+
+packages:
+  URLGuardCore:
+    path: .
+  onnxruntime:
+    url: https://github.com/microsoft/onnxruntime-swift-package-manager
+    from: "1.17.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # Set this to your team before building to a device.
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+
+# Shared by the app and both extensions: all three score URLs locally, so all
+# three need the model and the extractor.
+.modelAssets: &modelAssets
+  - path: ../android/app/src/main/assets/url_model.onnx
+    buildPhase: resources
+    type: file
+  - path: ../android/app/src/main/assets/model_meta.json
+    buildPhase: resources
+    type: file
+  - path: ../android/app/src/main/assets/public_suffix_list.txt
+    buildPhase: resources
+    type: file
+
+targets:
+  URLGuard:
+    type: application
+    platform: iOS
+    sources:
+      - path: App/URLGuard
+      - path: App/URLGuard/PrivacyInfo.xcprivacy
+        buildPhase: resources
+        type: file
+      - *modelAssets
+    dependencies:
+      - package: URLGuardCore
+        product: URLGuardCore
+      - package: onnxruntime
+        product: onnxruntime
+      - target: ShareExtension
+      - target: SafariExtension
+      - target: FirewallExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aics.urlguard
+        INFOPLIST_KEY_CFBundleDisplayName: URLGuard
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        CODE_SIGN_ENTITLEMENTS: App/URLGuard/URLGuard.entitlements
+    info:
+      path: App/URLGuard/Info.plist
+      properties:
+        AppIdentifierPrefix: $(AppIdentifierPrefix)
+        CFBundleURLTypes:
+          - CFBundleURLSchemes: [urlguard]
+            CFBundleURLName: com.aics.urlguard
+        # The app talks to a server the user names, which may be a local
+        # development host over plain HTTP. Nothing else is exempted.
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+
+  ShareExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: App/ShareExtension
+      - path: App/URLGuard/UrlClassifier.swift
+      - path: App/URLGuard/ScanHistory.swift
+      - *modelAssets
+    dependencies:
+      - package: URLGuardCore
+        product: URLGuardCore
+      - package: onnxruntime
+        product: onnxruntime
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aics.urlguard.share
+        CODE_SIGN_ENTITLEMENTS: App/ShareExtension/ShareExtension.entitlements
+    info:
+      path: App/ShareExtension/Info.plist
+      properties:
+        AppIdentifierPrefix: $(AppIdentifierPrefix)
+        CFBundleDisplayName: URLGuard
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.share-services
+          NSExtensionPrincipalClass: ShareExtension.ShareViewController
+          NSExtensionAttributes:
+            NSExtensionActivationRule:
+              NSExtensionActivationSupportsWebURLWithMaxCount: 1
+              NSExtensionActivationSupportsText: true
+
+  SafariExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: App/SafariExtension
+      - path: App/URLGuard/UrlClassifier.swift
+      - path: App/URLGuard/ScanHistory.swift
+      - *modelAssets
+    dependencies:
+      - package: URLGuardCore
+        product: URLGuardCore
+      - package: onnxruntime
+        product: onnxruntime
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aics.urlguard.safari
+        CODE_SIGN_ENTITLEMENTS: App/SafariExtension/SafariExtension.entitlements
+    info:
+      path: App/SafariExtension/Info.plist
+      properties:
+        AppIdentifierPrefix: $(AppIdentifierPrefix)
+        CFBundleDisplayName: URLGuard
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.Safari.web-extension
+          NSExtensionPrincipalClass: SafariExtension.SafariWebExtensionHandler
+
+  FirewallExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: App/FirewallExtension
+      - *modelAssets
+      # The DNS layer sees a bare hostname, never a URL, so it needs the
+      # hostname-scope model rather than the full-URL one.
+      - path: ../android/app/src/main/assets/hostname/url_model.onnx
+        buildPhase: resources
+        type: file
+        destinationFilters: [iOS]
+      - path: ../android/app/src/main/assets/hostname/model_meta.json
+        buildPhase: resources
+        type: file
+    dependencies:
+      - package: URLGuardCore
+        product: URLGuardCore
+      - package: onnxruntime
+        product: onnxruntime
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aics.urlguard.firewall
+        CODE_SIGN_ENTITLEMENTS: App/FirewallExtension/FirewallExtension.entitlements
+    info:
+      path: App/FirewallExtension/Info.plist
+      properties:
+        AppIdentifierPrefix: $(AppIdentifierPrefix)
+        CFBundleDisplayName: URLGuard Firewall
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.networkextension.packet-tunnel
+          NSExtensionPrincipalClass: FirewallExtension.PacketTunnelProvider

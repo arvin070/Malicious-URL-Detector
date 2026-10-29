@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URLGuard — URL Risk Assessment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- ======================= AUTH GATE ======================= -->
+<div id="auth-screen" class="auth-screen" hidden>
+  <div class="auth-card">
+    <div class="auth-brand">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-text">URL<span class="brand-accent">GUARD</span></span>
+    </div>
+    <p class="auth-tag">URL risk assessment — analysed on this server, never fetched.</p>
+
+    <div id="auth-error" class="alert alert-error" hidden></div>
+    <div id="auth-notice" class="alert alert-info" hidden></div>
+
+    <!-- login -->
+    <form id="login-form" class="auth-form">
+      <label class="field">
+        <span>Email</span>
+        <input type="email" id="login-email" autocomplete="email" required>
+      </label>
+      <label class="field">
+        <span>Password</span>
+        <span class="pw-wrap">
+          <input type="password" id="login-password" autocomplete="current-password" required>
+          <button type="button" class="pw-toggle" data-for="login-password">Show</button>
+        </span>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="login-remember" checked>
+        <span>Keep me signed in on this device</span>
+      </label>
+      <button type="submit" class="btn btn-primary btn-block">
+        <span class="btn-label">Sign in</span><span class="spinner" aria-hidden="true"></span>
+      </button>
+      <div class="auth-links">
+        <button type="button" class="linkish" data-auth-view="register">Create an account</button>
+        <button type="button" class="linkish" data-auth-view="forgot">Forgot password?</button>
+      </div>
+    </form>
+
+    <!-- register -->
+    <form id="register-form" class="auth-form" hidden>
+      <label class="field"><span>Name</span>
+        <input type="text" id="reg-name" autocomplete="name" required></label>
+      <label class="field"><span>Email</span>
+        <input type="email" id="reg-email" autocomplete="email" required></label>
+      <label class="field"><span>Password</span>
+        <span class="pw-wrap">
+          <input type="password" id="reg-password" autocomplete="new-password" required>
+          <button type="button" class="pw-toggle" data-for="reg-password">Show</button>
+        </span>
+      </label>
+      <label class="field"><span>Confirm password</span>
+        <input type="password" id="reg-confirm" autocomplete="new-password" required></label>
+      <p class="hint">At least 10 characters. Stored only as an Argon2id hash.</p>
+      <button type="submit" class="btn btn-primary btn-block">
+        <span class="btn-label">Create account</span><span class="spinner" aria-hidden="true"></span>
+      </button>
+      <div class="auth-links">
+        <button type="button" class="linkish" data-auth-view="login">Back to sign in</button>
+      </div>
+    </form>
+
+    <!-- forgot -->
+    <form id="forgot-form" class="auth-form" hidden>
+      <label class="field"><span>Email</span>
+        <input type="email" id="forgot-email" autocomplete="email" required></label>
+      <p class="hint">
+        This prototype does not send email. If the address has an account, a
+        reset token is issued for an operator to relay.
+      </p>
+      <button type="submit" class="btn btn-primary btn-block">
+        <span class="btn-label">Request reset</span><span class="spinner" aria-hidden="true"></span>
+      </button>
+      <div class="auth-links">
+        <button type="button" class="linkish" data-auth-view="login">Back to sign in</button>
+        <button type="button" class="linkish" data-auth-view="reset">I have a token</button>
+      </div>
+    </form>
+
+    <!-- reset -->
+    <form id="reset-form" class="auth-form" hidden>
+      <label class="field"><span>Reset token</span>
+        <input type="text" id="reset-token" required></label>
+      <label class="field"><span>New password</span>
+        <span class="pw-wrap">
+          <input type="password" id="reset-password" autocomplete="new-password" required>
+          <button type="button" class="pw-toggle" data-for="reset-password">Show</button>
+        </span>
+      </label>
+      <button type="submit" class="btn btn-primary btn-block">
+        <span class="btn-label">Set new password</span><span class="spinner" aria-hidden="true"></span>
+      </button>
+      <div class="auth-links">
+        <button type="button" class="linkish" data-auth-view="login">Back to sign in</button>
+      </div>
+    </form>
+
+    <p class="auth-foot">
+      You can also <button type="button" class="linkish" id="skip-auth">continue without an account</button>
+      — scans still work, but history is not kept for you.
+    </p>
+  </div>
+</div>
+
+<!-- ======================= APP ======================= -->
+<div id="app" hidden>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-text">URL<span class="brand-accent">GUARD</span></span>
+      <span class="brand-sub">URL Risk Assessment</span>
+    </div>
+    <div class="topbar-right">
+      <span class="model-status" id="model-status">
+        {% if model_exists %}
+          <span class="dot dot-ok" aria-hidden="true"></span>
+          <span id="model-badge">{{ algo_names|length }} models loaded</span>
+        {% else %}
+          <span class="dot dot-bad" aria-hidden="true"></span>
+          <span>No models — run <code>python src/train_v3.py</code></span>
+        {% endif %}
+      </span>
+      <span class="who" id="who"></span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs wrap" role="tablist">
+  <button class="tab is-active" role="tab" data-view="dashboard" aria-selected="true">Dashboard</button>
+  <button class="tab" role="tab" data-view="scanner" aria-selected="false">Scanner</button>
+  <button class="tab" role="tab" data-view="history" aria-selected="false">Scan History</button>
+  <button class="tab" role="tab" data-view="threats" aria-selected="false">Threats</button>
+  <button class="tab" role="tab" data-view="analytics" aria-selected="false">Analytics</button>
+  <button class="tab" role="tab" data-view="profile" aria-selected="false">Profile</button>
+  <button class="tab" role="tab" data-view="settings" aria-selected="false">Settings</button>
+</nav>
+
+<main class="wrap">
+
+  <!-- ========== DASHBOARD ========== -->
+  <section id="view-dashboard" class="view is-active">
+    <section class="card">
+      <h3 class="card-title">Security overview</h3>
+      <p class="card-note">
+        Counts come only from scans recorded by this installation for the
+        signed-in account. Nothing is pre-seeded.
+      </p>
+      <div id="dash-stats" class="stat-grid"></div>
+    </section>
+
+    <section class="card">
+      <h3 class="card-title">Threat activity</h3>
+      <p class="card-note" id="activity-note"></p>
+      <div id="activity-chart"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h3 class="card-title">Recent scans</h3>
+        <button class="btn btn-ghost btn-sm" data-goto="history">View all</button>
+      </div>
+      <div id="dash-recent"></div>
+    </section>
+  </section>
+
+  <!-- ========== SCANNER ========== -->
+  <section id="view-scanner" class="view">
+    <form id="scan-form" class="scan-form" autocomplete="off">
+      <label class="scan-label" for="url-input">URL to analyse</label>
+      <div class="scan-row">
+        <input id="url-input" type="text" spellcheck="false" autocapitalize="off"
+               placeholder="https://example.com/path?query=value" aria-describedby="scan-help">
+        <button type="submit" id="scan-btn" class="btn btn-primary">
+          <span class="btn-label">Analyse</span><span class="spinner" aria-hidden="true"></span>
+        </button>
+        <button type="button" id="clear-btn" class="btn btn-ghost">Clear</button>
+      </div>
+      <div class="scope-row">
+        <label class="radio"><input type="radio" name="scope" value="url" checked>
+          <span>Full URL</span></label>
+        <label class="radio"><input type="radio" name="scope" value="hostname">
+          <span>Hostname only (DNS-layer view)</span></label>
+      </div>
+      <label class="check web-opt">
+        <input type="checkbox" id="analyze-website">
+        <span><strong>Also analyse the webpage</strong>
+          <em>Retrieves the page over HTTP to examine its structure. This is the
+          only part of URLGuard that contacts the address. GET only — no
+          JavaScript is executed, no form is submitted and no credential is
+          ever sent.</em></span>
+      </label>
+      <p class="scan-help" id="scan-help">
+        The URL is analysed as text on the server. It is never fetched,
+        resolved, or opened.
+      </p>
+    </form>
+
+    <div id="scan-error" class="alert alert-error" hidden></div>
+
+    <article id="result" class="result" hidden>
+      <section class="card assessment" id="assessment-card">
+        <div class="assessment-head">
+          <div>
+            <div class="kicker">Assessment</div>
+            <h2 class="band-label" id="band-label">—</h2>
+            <p class="band-desc" id="band-desc"></p>
+          </div>
+          <div class="assessment-metrics">
+            <div class="metric">
+              <div class="metric-value" id="risk-score">—</div>
+              <div class="metric-label">Risk score <span class="metric-sub">/ 100</span></div>
+            </div>
+            <div class="metric">
+              <div class="metric-value" id="confidence">—</div>
+              <div class="metric-label">Model confidence
+                <span class="metric-sub" id="confidence-label"></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scale" aria-hidden="true">
+          <div class="scale-track">
+            <span class="scale-seg seg-low"></span><span class="scale-seg seg-sus"></span>
+            <span class="scale-seg seg-high"></span>
+            <div class="scale-marker" id="scale-marker"></div>
+          </div>
+          <div class="scale-ticks">
+            <span>0 — Low risk — 30</span><span>31 — Suspicious — 70</span>
+            <span>71 — High risk — 100</span>
+          </div>
+        </div>
+
+        <div class="url-line"><span class="url-line-label">URL</span><code id="result-url"></code></div>
+        <div id="scope-warning" class="scope-warning" hidden></div>
+
+        <div class="breakdown" id="breakdown-wrap">
+          <div class="breakdown-title">Detection breakdown</div>
+          <div id="breakdown"></div>
+          <div class="fusion-note" id="fusion-note"></div>
+        </div>
+
+        <div class="fusion-model" id="fusion-model" hidden></div>
+
+        <div class="meta-row" id="meta-row"></div>
+        <p class="disclaimer" id="disclaimer"></p>
+      </section>
+
+      <div class="grid-2">
+        <section class="card">
+          <h3 class="card-title">Security signals</h3>
+          <p class="card-note" id="signal-basis"></p>
+          <div id="signals-warning" class="signal-group"></div>
+          <div id="signals-positive" class="signal-group"></div>
+          <details class="neutral-details" id="neutral-wrap" hidden>
+            <summary id="neutral-summary">Observations not treated as risk signals</summary>
+            <div id="signals-neutral" class="signal-group"></div>
+          </details>
+        </section>
+
+        <section class="card">
+          <h3 class="card-title">Why did I get this result?</h3>
+          <p id="explanation-text" class="explain-text"></p>
+          <div id="explanation-detail"></div>
+          <p class="card-note" id="explain-caveat">
+            These signals contributed to the security assessment. They do not by
+            themselves prove malicious activity.
+          </p>
+        </section>
+      </div>
+
+      <section class="card" id="page-layers-card" hidden>
+        <h3 class="card-title">Webpage analysis layers</h3>
+        <p class="card-note">
+          Each layer below is a separate reading of the page that was
+          retrieved. Nothing was executed, no form was submitted and no
+          external script was downloaded. Individual findings are evidence,
+          not verdicts &mdash; legitimate sites use many of these techniques.
+        </p>
+        <div id="page-layers"></div>
+      </section>
+
+      <div class="grid-2">
+
+        <section class="card">
+          <h3 class="card-title">URL characteristics</h3>
+          <p class="card-note">
+            Measured properties of the URL text. Observations only — no single
+            value here is, on its own, an indication of harm.
+          </p>
+          <div id="characteristics" class="char-grid"></div>
+        </section>
+
+        <section class="card">
+          <h3 class="card-title">Domain &amp; DNS information</h3>
+          <p class="card-note" id="domain-scope"></p>
+          <div id="domain-info" class="kv-list"></div>
+        </section>
+      </div>
+
+      <section class="card">
+        <h3 class="card-title">Model breakdown</h3>
+        <p class="card-note" id="agreement-note"></p>
+        <div id="model-rows" class="model-rows"></div>
+      </section>
+    </article>
+  </section>
+
+  <!-- ========== HISTORY ========== -->
+  <section id="view-history" class="view">
+    <section class="card">
+      <div class="card-head">
+        <h3 class="card-title">Scan history</h3>
+        <button id="clear-history" class="btn btn-ghost btn-sm">Clear history</button>
+      </div>
+      <p class="card-note" id="history-note"></p>
+      <div class="filters">
+        <input type="search" id="hist-q" placeholder="Search URL or domain">
+        <select id="hist-band">
+          <option value="">All assessments</option>
+          <option value="low">Low risk</option>
+          <option value="suspicious">Suspicious</option>
+          <option value="high">High risk</option>
+          <option value="insufficient">Insufficient evidence</option>
+        </select>
+        <select id="hist-sort">
+          <option value="scanned_at:desc">Newest first</option>
+          <option value="scanned_at:asc">Oldest first</option>
+          <option value="risk_score:desc">Highest score</option>
+          <option value="risk_score:asc">Lowest score</option>
+          <option value="domain:asc">Domain A–Z</option>
+        </select>
+      </div>
+      <div id="history-wrap"></div>
+      <div class="pager" id="history-pager"></div>
+    </section>
+  </section>
+
+  <!-- ========== THREATS ========== -->
+  <section id="view-threats" class="view">
+    <section class="card">
+      <h3 class="card-title">Detected threats</h3>
+      <p class="card-note">
+        Scans assessed Suspicious or High risk. These are model assessments, not
+        confirmed malicious activity.
+      </p>
+      <div id="threats-wrap"></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Most frequently flagged domains</h3>
+      <div id="threat-domains"></div>
+    </section>
+  </section>
+
+  <!-- ========== ANALYTICS ========== -->
+  <section id="view-analytics" class="view">
+    <section class="card">
+      <h3 class="card-title">Risk distribution</h3>
+      <div id="an-distribution"></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Threat count over time</h3>
+      <div id="an-series"></div>
+    </section>
+    <div class="grid-2">
+      <section class="card">
+        <h3 class="card-title">Detection source</h3>
+        <div id="an-source"></div>
+      </section>
+      <section class="card">
+        <h3 class="card-title">Model version distribution</h3>
+        <div id="an-model"></div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ========== PROFILE ========== -->
+  <section id="view-profile" class="view">
+    <section class="card">
+      <h3 class="card-title">Account</h3>
+      <div id="profile-info" class="kv-list"></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Update name</h3>
+      <form id="profile-form" class="inline-form">
+        <input type="text" id="profile-name" placeholder="Your name">
+        <button class="btn btn-primary" type="submit">Save</button>
+      </form>
+      <div id="profile-msg" class="alert alert-info" hidden></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Change password</h3>
+      <form id="password-form" class="stacked-form">
+        <label class="field"><span>Current password</span>
+          <input type="password" id="pw-current" autocomplete="current-password"></label>
+        <label class="field"><span>New password</span>
+          <span class="pw-wrap">
+            <input type="password" id="pw-new" autocomplete="new-password">
+            <button type="button" class="pw-toggle" data-for="pw-new">Show</button>
+          </span></label>
+        <button class="btn btn-primary" type="submit">Change password</button>
+      </form>
+      <div id="password-msg" class="alert alert-info" hidden></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Session</h3>
+      <div class="btn-row">
+        <button id="logout-btn" class="btn btn-ghost">Sign out</button>
+        <button id="logout-all-btn" class="btn btn-ghost">Sign out everywhere</button>
+      </div>
+    </section>
+  </section>
+
+  <!-- ========== SETTINGS ========== -->
+  <section id="view-settings" class="view">
+    <section class="card">
+      <h3 class="card-title">Security preferences</h3>
+      <p class="card-note">Stored against your account and shared with the Android app.</p>
+      <div id="prefs" class="pref-list"></div>
+      <div id="prefs-msg" class="alert alert-info" hidden></div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">What is stored, and why</h3>
+      <div class="privacy">
+        <p><strong>Scans you run while signed in</strong> are stored against your
+        account: the URL, the assessment, the risk score, the model version and
+        the time. This is what makes history and analytics possible.</p>
+        <p><strong>The URL is never fetched.</strong> Assessment is performed on
+        the URL text alone. No request is made to the address, so no DNS
+        resolution, IP, domain age or reputation data is collected — those
+        fields read <em>Not available</em> by design, not by failure.</p>
+        <p><strong>Passwords</strong> are stored only as Argon2id hashes and are
+        never logged. <strong>Refresh tokens</strong> are stored hashed, so a
+        copy of the database does not yield usable sessions.</p>
+        <p>Clearing your history deletes those rows permanently.</p>
+      </div>
+    </section>
+    <section class="card">
+      <h3 class="card-title">Detection model</h3>
+      <div id="model-info" class="kv-list"></div>
+    </section>
+  </section>
+
+</main>
+
+<footer class="footnote wrap">
+  <span>Lexical and structural analysis only — the URL is never contacted.</span>
+  <span id="footer-meta"></span>
+</footer>
+
+</div><!-- /#app -->
+
+<!-- scan detail drawer -->
+<div id="drawer" class="drawer" hidden>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <h3 id="drawer-title">Scan detail</h3>
+      <button id="drawer-close" class="btn btn-ghost btn-sm">Close</button>
+    </div>
+    <div id="drawer-body"></div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

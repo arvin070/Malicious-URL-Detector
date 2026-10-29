@@ -1,0 +1,8340 @@
+{
+ "available": true,
+ "source": "data/urlguard_web_dataset.csv",
+ "pages_examined": 2704,
+ "nodes": [
+  {
+   "domain": "struct:bad60e69",
+   "degree": 186,
+   "corpus_label": "structure_cluster",
+   "size": 186,
+   "pages_malicious": 198,
+   "pages_benign": 0,
+   "form_fingerprint": "bad60e695b11803a"
+  },
+  {
+   "domain": "struct:982d9e3e",
+   "degree": 40,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "982d9e3eb996f559"
+  },
+  {
+   "domain": "struct:fc95ef99",
+   "degree": 15,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "fc95ef9910c52993"
+  },
+  {
+   "domain": "google.com",
+   "degree": 11,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "google.by",
+   "degree": 9,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ed-intra.com",
+   "degree": 9,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "google.bi",
+   "degree": 9,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "flushpersist.com",
+   "degree": 9,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "google.am",
+   "degree": 9,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lisboapoio.pt",
+   "degree": 9,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "google.com.eg",
+   "degree": 9,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "google.com.cu",
+   "degree": 9,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "struct:b064612b",
+   "degree": 8,
+   "corpus_label": "structure_cluster",
+   "size": 8,
+   "pages_malicious": 2,
+   "pages_benign": 6,
+   "form_fingerprint": "b064612b0cf8b2ce"
+  },
+  {
+   "domain": "struct:24193290",
+   "degree": 7,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 2,
+   "pages_benign": 0,
+   "form_fingerprint": "2419329067823cab"
+  },
+  {
+   "domain": "docpit.com",
+   "degree": 6,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "wsenetwork.com",
+   "degree": 6,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "savesyrianow.com",
+   "degree": 6,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "abellabooks.com",
+   "degree": 6,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gomotorbids.com",
+   "degree": 6,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "struct:83571874",
+   "degree": 6,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "8357187467c9ffb1"
+  },
+  {
+   "domain": "registrar-transfers.com",
+   "degree": 5,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "hugedomains.com",
+   "degree": 5,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "oferty24.sbs",
+   "degree": 5,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-dyu8h.sbs",
+   "degree": 5,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-5ufkc.sbs",
+   "degree": 5,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "nr-238284sn.rest",
+   "degree": 5,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "struct:1ac6d1b5",
+   "degree": 5,
+   "corpus_label": "structure_cluster",
+   "size": 5,
+   "pages_malicious": 1,
+   "pages_benign": 4,
+   "form_fingerprint": "1ac6d1b5c4cbe370"
+  },
+  {
+   "domain": "struct:c23d6a10",
+   "degree": 5,
+   "corpus_label": "structure_cluster",
+   "size": 5,
+   "pages_malicious": 0,
+   "pages_benign": 5,
+   "form_fingerprint": "c23d6a10b8f17810"
+  },
+  {
+   "domain": "allegrolokalnie.pl",
+   "degree": 4,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "mheducation.com",
+   "degree": 4,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "struct:a55bdb38",
+   "degree": 4,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 2,
+   "pages_benign": 0,
+   "form_fingerprint": "a55bdb383eb6ca0b"
+  },
+  {
+   "domain": "struct:b7f908fb",
+   "degree": 4,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "b7f908fb93913459"
+  },
+  {
+   "domain": "filmyzilla57.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "filmyzilla71.com",
+   "degree": 3,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "mhschool.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "filmyzilla62.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "big12hoops.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "californiagoldenblogs.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sso-tangem.com",
+   "degree": 3,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "guanyuezhihu-jp.com",
+   "degree": 3,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "nta.go.jp",
+   "degree": 3,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "valburtonphot-jp.com",
+   "degree": 3,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "helpdesk-ralphlauren.com",
+   "degree": 3,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "filmyzilla53.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mhhe.com",
+   "degree": 3,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "bifcapnepa-jp.com",
+   "degree": 3,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "struct:6d92fa8e",
+   "degree": 3,
+   "corpus_label": "structure_cluster",
+   "size": 3,
+   "pages_malicious": 1,
+   "pages_benign": 2,
+   "form_fingerprint": "6d92fa8e156b77a3"
+  },
+  {
+   "domain": "struct:65c3be4f",
+   "degree": 3,
+   "corpus_label": "structure_cluster",
+   "size": 3,
+   "pages_malicious": 7,
+   "pages_benign": 0,
+   "form_fingerprint": "65c3be4f32934fd4"
+  },
+  {
+   "domain": "struct:cd964f73",
+   "degree": 3,
+   "corpus_label": "structure_cluster",
+   "size": 3,
+   "pages_malicious": 0,
+   "pages_benign": 3,
+   "form_fingerprint": "cd964f73cb0db9dc"
+  },
+  {
+   "domain": "struct:7713b5cb",
+   "degree": 3,
+   "corpus_label": "structure_cluster",
+   "size": 3,
+   "pages_malicious": 0,
+   "pages_benign": 3,
+   "form_fingerprint": "7713b5cbd7740bb0"
+  },
+  {
+   "domain": "mailersend.net",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "blogspot.com",
+   "degree": 2,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "acilebanon.com",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "flextronics.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "artfilmfest.sk",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "spdx.org",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "magic.ly",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "sbnation.com",
+   "degree": 2,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "bitdefender.net",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "bitdefender.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "braintreepayments.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "paypal.com",
+   "degree": 2,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "tu-bs.de",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "edenbridgetown.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "breakingnews.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "comss.one",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "awstrack.me",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bit.ly",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "paypal.me",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "exlyapp.com",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "fairfax.com.au",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ig.me",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "instagram.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "onfastspring.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "fastspring.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "inlouwetrust.com",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "telegram.land",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "telegram.org",
+   "degree": 2,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "eiffage-recrutement.com",
+   "degree": 2,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "struct:686b471d",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 1,
+   "pages_benign": 1,
+   "form_fingerprint": "686b471dd8bc725b"
+  },
+  {
+   "domain": "struct:eb7686b6",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 1,
+   "pages_benign": 1,
+   "form_fingerprint": "eb7686b60a59c6a2"
+  },
+  {
+   "domain": "struct:177d31ae",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "177d31aed0b80f0f"
+  },
+  {
+   "domain": "struct:0d0cc146",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "0d0cc1461f58da86"
+  },
+  {
+   "domain": "struct:1867f76f",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 2,
+   "pages_benign": 0,
+   "form_fingerprint": "1867f76f89b18a0f"
+  },
+  {
+   "domain": "struct:65a80353",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "65a80353f0bb06c2"
+  },
+  {
+   "domain": "struct:ed95b0cd",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 3,
+   "form_fingerprint": "ed95b0cdb69a0a91"
+  },
+  {
+   "domain": "struct:ef181939",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 2,
+   "pages_benign": 0,
+   "form_fingerprint": "ef1819399a510f7c"
+  },
+  {
+   "domain": "struct:be5be69f",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 1,
+   "pages_benign": 1,
+   "form_fingerprint": "be5be69f55e91af2"
+  },
+  {
+   "domain": "struct:5e884898",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 2,
+   "pages_benign": 0,
+   "form_fingerprint": "5e884898da280471"
+  },
+  {
+   "domain": "struct:78ab5436",
+   "degree": 2,
+   "corpus_label": "structure_cluster",
+   "size": 2,
+   "pages_malicious": 0,
+   "pages_benign": 2,
+   "form_fingerprint": "78ab5436fe6f6d68"
+  },
+  {
+   "domain": "stratfor.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ranenetwork.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "abramson.cc",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "simonabramson.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "latam.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "latamairlines.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "gtranslate.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gtranslate.io",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "abovosolutions.eu",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "abovosolutions.pl",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "mycityrocks.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "megaseats.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "embedly.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "embed.ly",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "157.245.89.14",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "academiainsider.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sso-regeneron.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "joankermathrealestate.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "storebusinesshours.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "videoveggie.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "professionz.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "brandsly.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "tutanota.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tuta.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "citytv.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "citytvplus.ca",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "flex.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "windows.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "microsoft.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "code-and-faces.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "jasu.dev",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "identifcation.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "roblox.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "direct.gov.uk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "service.gov.uk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "wpafilmlibrary.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mpistockfootage.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "rosettastone.eu",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "rosettastone.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "wackradio901fm.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "keraton4d.store",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "snigelweb.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "snigel.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "customeriomail.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "filmyfly.soy",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "filmyfly.army",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "balkanchronicle.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "baccarat350.co",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ag-techs.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "scan.page",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "icicibank.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "bank.in",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "grammarly.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "grammarly.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "67.207.74.175",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "webgriffe.systems",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "keyrow.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lnhongxiang.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "udc.es",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "udc.gal",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "vorwerk.it",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "vorwerk.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "pkg.dev",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "soundestlink.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "omnisend.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "govoffice3.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "vanhorne-ia.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ai-bot-line.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "onamae.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "t.co",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lystem.fr",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "uralschool.ru",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "xn--80aaacg3ajc5bedviq9k9b.xn--p1ai",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "the-alcoholism-guide.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "notogelsydney.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "iffartfilm.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "travis-ci.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "travis-ci.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "caiway.nl",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "delta.nl",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "verbraucher-schlichter.de",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "universalschlichtungsstelle.de",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "spdx.dev",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "chow.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "foodie.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "dream.space",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "dreamspace.xyz",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "adthrive.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "raptive.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "state.mn.us",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mn.gov",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "cutly.in",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "shorturl.asia",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "monsterserver.de",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "nitrado.net",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "lordmantis.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "umraniyeescortt.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "emlnk9.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "activehosted.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sapsf.eu",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sap.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "adubuildersorangecounty.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pawsupdogacademy.co.uk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "magicly.bio",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "multiply.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "system1.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "rondebruin.nl",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "jkp-ads.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "europages.co.uk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "visable.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sberbank-tele.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sbermobile.ru",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "rosyscans.id",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "rosyscans.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "thebalancecareers.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "thebalancemoney.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "slocumthemes.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "slocumstudio.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "archivopedia.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "1win-promo-azerbajan.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "freecourtdockets.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "backgroundchecklookup.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "spybett.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "1wtz.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "obsec.us",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "obsidiansecurity.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "cloud.us",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "citrix.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "172.105.25.169",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "engcorp.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "veepee-fr.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "veepeefr.shop",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "synonym-finder.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "rtpmansion77.space",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "genspark.ai",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gensparkspace.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "snapkit.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "snap.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "3m.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "3mcanada.ca",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "videotron.ca",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "videotron.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "lis-skins-cs2.ru",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "cshappy.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "aiuedu.org",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "kosherbydesignblog.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "skybroadband.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sky.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "chippenhampeople.co.uk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "goldcash-freespins.co.uk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "virusradar.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "welivesecurity.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "seatguru.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tripadvisor.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "mediaroom.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "prnewswire.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "srv53.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "dnshosting.org",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "wdrb.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "wdrbwave.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "fingerprinting.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "fingerprintzone.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "pos4dtototogel87.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "POS4DTOTOTOGEL93.COM",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ultimate-tabs.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gotabs.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "dyestatcal.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "dyestat.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "netvibes.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "3ds.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "network54.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tapatalk.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "alwaysdata.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "alwaysdata.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "nexusbsolutions.cl",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "nexusbs.cl",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "macworld.co.uk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "macworld.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "cbslocal.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cbsnews.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "lucidchart.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lucid.co",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "cdk.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cdkglobal.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "probex.ee",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "probex-plywood.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "tu-braunschweig.de",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "telekom.rs",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mts.rs",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "csod.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cornerstoneondemand.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "worldgolf.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "golfpass.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "corbina.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "beeline.ru",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "udmserve.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "underdogmedia.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "netflixnm.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netflixinyourneighborhoodnm.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "betteruptime.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "betterstack.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "canva.link",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "canva.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "catholic.org.au",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "catholic.au",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "searchmagnet.co.uk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "thingspeak.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mathworks.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "newsworks.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "whyy.org",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ves.io",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "f5.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sol-convert.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lqic-sas.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "searchspring.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "searchspring.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "tildacdn.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tilda.cc",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "nbcnews.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "example.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "musta.ch",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "airbnb.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "bonusprint.co.uk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "photobox.co.uk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "139.59.193.8",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "narrativemuse.co",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "evospulse.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "evospremium.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "catholicherald.co.uk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "thecatholicherald.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "gs.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "goldmansachs.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "brianthecutter.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "briangavindiamonds.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "1479182-coinbase.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "haveibeenpwned.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "adingo.jp",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "fluct.jp",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ktu.lt",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ktu.edu",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "espacesecu-tehna.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lemonde.fr",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "rbfcu.org",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "greglowery.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "m-pages.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "moosend.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "admon.pro",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "admon.ai",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "timewarnercable.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "spectrum.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "elevenia.co.id",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "catcher.id",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "project-limelight.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "limelight.inc",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "comss.ru",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "digitalpacific.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "digitalpacific.com.au",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "christkindlwirt.at",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "baumgartnerhotels.at",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "commerzbank.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "commerzbank.de",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "song.link",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "odesli.co",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ttax.us",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "intuit.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "lifehacker.com.au",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lifehacker.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "igg.me",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "indiegogo.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "wisegeek.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "easytechjunkie.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "konicaminolta.jp",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "konicaminolta.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "accessacloud.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "theaccessgroup.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "bepress.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "elsevier.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cuentosinfantilesadormir.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sedo.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "142.93.181.27",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "advisorevolved.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "mgln.ai",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "magellan.ai",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "windstreambusiness.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "uniti.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ethancbanks.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "packetpushers.net",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "myclickfunnels.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "nine.com.au",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sputniknews.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sputnikglobe.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "selfhost.eu",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "selfhost.de",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "retargetly.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "epsilon.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ietf.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "rfc-editor.org",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "ajilon.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lhh.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "pocket7games.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "aviagames.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "espacejeux.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lotoquebec.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "auburnjournal.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "goldmountaincanews.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "4-traders.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "marketscreener.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "the700level.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "nbcsportsphiladelphia.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "deltafibernederland.nl",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "deltafiber.nl",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "43.159.39.69",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ppt.cc",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "redirredirredir.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "185.183.98.204",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "secfall.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "lexisone.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lexisnexis.co.uk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "livestrong.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "everydayhealth.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "suster123rose.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "suster123suka.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "datacenter.no",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "webhuset.no",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "journaldev.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "digitalocean.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "urbanairship.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "airship.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "thehost.com.ua",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "thehost.ua",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "bustybeauties.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "hustlerunlimited.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "pmgscc.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "mgscc.net",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "blogspot.ru",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "nicusa.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tylertech.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sedackymilenium.sk",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sedacka.sk",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "login-drivers.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "tfoumax.fr",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "icefire.in",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "icefireappliances.in",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "qcloud.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tencent.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "yourhoustonnews.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "chron.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "shareaholic.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "shareaholic.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "dns.pt",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "pt.pt",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "incapsula.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "imperva.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "acessocliente.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "urldance.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "sailthru.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "zetaglobal.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "as.me",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "acuityscheduling.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "kamicemc.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "kamic.se",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "allaboutthejersey.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "mce-sys.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mce.systems",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "joann.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "michaels.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "io9.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gizmodo.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "steves-digicams.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "dvdtalk.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "Cisco.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cisco.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "x-flow.app",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "xflowgames.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "linotype.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "myfonts.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "gitlab.io",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gitlab.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "okhca.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "oklahoma.gov",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "capebretonpost.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "saltwire.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "polaris-iot.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "polaris.ru",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "teletoon.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cartoonnetwork.ca",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "eiffage.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "parispornmovies.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lobstertube.com",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "jvf-online.de",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "goneo.de",
+   "degree": 1,
+   "corpus_label": "unknown"
+  },
+  {
+   "domain": "1999991-coinbase.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "2012094h84.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "239t829332g.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "273518562.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "2bradesconetmepresas.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "306912coinbase.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "4387167h7hh.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "925389h451.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "938327382939129gfog.sbs",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "BAC-cvnyt.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acces564294.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acesso-juridica.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acesso-principal.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acesso-seguro.app",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessocredisis.uk",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessojuridicointerno.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessojuridicopj.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessonet.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessonet.life",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessonet.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessonternopj.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "acessopjnet.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "achievefundraising.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ameknc.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "analysismanagement.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "apinetempresa.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "apo839899.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "apoioexclusivo.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atendepromo.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atendimento-netempresas.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ativacaodechat.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaocadastralpj.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaoecontratos.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaomodulopj.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaoparaempresas.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaopj-topaz.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaopjtopaz.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizacaotopaznetempresa.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizar-empresa.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizarmodulo.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizarnetempresas.app",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizarpj2026.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "atualizepj-topaz.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bablisly.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-bvloh.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-caospa.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-caospan.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-chudcia.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-irtioc.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-iuydfk.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-nbbnm.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-suisfp.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-uytfg.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bac-vcnyd.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bacauifsahf.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bacmrvavoli.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bdll5781735.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bemcaamvoli.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "beneficioslivelox.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "biaprogramadepontos.info",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "binance-zh.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bjzixingche.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bncenlimea.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "boseac-gifts.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bradescoempresapj.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bradescoempresaspj.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bradescogerenciadorpj.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "bradesconlineapp.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "cadastrobradescopj.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "cadastrobradescopjatt.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "cadastroxppontos.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "canaisempresas.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "canalcliente.live",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "chatnetexclusivo.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "clientepresent.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "clientepresent.live",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "comagros.my",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "connessione-sicura.online",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "contaprotegida.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "de-12903.cc",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "desktop-wallet.io",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "digitalacessos.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "digitalnetempresa.app",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "digitalnetempresas.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "dkb-im.com.es",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "docu462589.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "dragonway.com.br",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "empresarialsuporte.live",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "empresascorporativonet.chat",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "empresasenegocios.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "empresasnetassistente.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "empresaspjsuporte.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "etapasegura.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "example6.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "fbping.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "fiinanzas.blog",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "freuttys.online",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gerenciatopaz.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gerentepainel.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gestaodeempresas.info",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gestaoempresanet.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gestaoweb.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gestaoweb.info",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "grv4571134.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "grv5781752.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "gseconsult.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "homebanking-bancoctt.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "hub4571132.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "idself-care.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ionos-datenschutz.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "jimdofree.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "juridicoempresas.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lin999.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lokalna-099171.club",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lokalna-1900191.biz",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "lokalna-ofeta3528509.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "m20156241.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "mufgplat.biz",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "my-sav-prime.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "mzhpro.co",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "mzhpro.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "n12empresa.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ne12empresa.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ne12empresascontratos.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netatualiza.info",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netatualizaempresa.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netempresarial.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netempresarialsuporte.live",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netempresasatualizar.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netempresasbradesco.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netempresasgerente.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "netpjreapro.info",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "novocadastro.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "oferta271638pl.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "oferta532843.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "oferta780183pl.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pjacessoempresarial.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pjappempresas.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pjcanalempresa.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-862634.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-add.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-oferta5194890.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-oferta5821989.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-oferta7358277.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-oferta7358973.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pl-oferta8920950.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "placenciere-ch.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "plataformapj.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pntsonlineapp.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "portalnetempresas.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "portalnetempresatopaz.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "postfix-dns.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "premioslivex.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "pro-dgrfo.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "promojuntostop.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "prowiu127f18.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "rb-rot.xyz",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "rpo328g2.bond",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "sitio-oficial.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "smar8t473291.shop",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "solucoesnetempresas.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "soportevalidacion-ar.es",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "ssuporteacessoempresariall.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "supershopf.vip",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "suporte-bia.app",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "suportedigital.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "suportenetempresaspj.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "suporteparapj.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "suportepjonline.click",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "suportepjonline.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "telegramch.org",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "thespeedyway.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "topazatendimento.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "topazempresa.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "topazempresa.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "topaznetempresa.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "topazportalonline.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "urge844284.pro",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "validacaodigitalnetempresas.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "vr-spk-connect.digital",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "wasapplus.pk",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "whatsappvips.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "zhichengsoft.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "2gis.ru",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "amen.fr",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cb2.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gentosha-go.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "hentai20.io",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lavuelta.es",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lockton.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "nominalia.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "slideserve.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tistory.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "usnews.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "xvideosporno.blog.br",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "accessify.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "bcc.kz",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "blueshieldca.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "break.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "canalpuntosafe.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "kontan.co.id",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "pressbanner.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "priotopic.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "statsperform.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ameritas.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gameinformer.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "pentaho.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "theicct.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "demotrans.com.bd",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "outscale.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "refinery29.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "up.edu.ph",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "walmart.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "linkurl.pk",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "roblox.com.bz",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "roblox.gf",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "roblox.gs",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "behindthesteelcurtain.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "bigcatcountry.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mmamania.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "theonlycolors.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "bmc.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "forumotion.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "narcity.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "a10.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "agame.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mousebreaker.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "devtodev.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ftmo.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "gamegene.net",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "legalzoom.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "polaranalytics.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "pushowl.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "smoothwall.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sync.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "africaprint.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "rbr.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "companydatabase.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ghbook.ir",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "resdiary.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "amazon.ae",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "amazon.eg",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "appleinsider.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "itch.io",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "ax-binance.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "binance-taiwan.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "itemfix.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "tutsplus.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "charlesandre.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "nokia.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "dartmouth.edu",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "itgbrands.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "indiabix.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "slideshare.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "answers.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "wp.pl",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "medusainternational.com.np",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "oortstorages.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "publicgaming.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "womenshealth.gov",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "barracudabar-pattaya.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "perpetualmotioninc.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "azcardinals.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "panthers.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "arbada.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "thothd.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "aciprensa.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "sleepfoundation.org",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "umaryland.edu",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "cursor.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "v-binance.com.cn",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "telegrammac.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "telegramnco.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "208209.xyz",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "yahou2011.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "151e-berry.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "tdejb.com",
+   "degree": 1,
+   "corpus_label": "malicious"
+  },
+  {
+   "domain": "nyi.net",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "fulldesisex.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "hdhindisex.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "lagalaxy.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  },
+  {
+   "domain": "mlssoccer.com",
+   "degree": 1,
+   "corpus_label": "benign"
+  }
+ ],
+ "edges": [
+  {
+   "source": "mailersend.net",
+   "target": "blogspot.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "stratfor.com",
+   "target": "ranenetwork.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "abramson.cc",
+   "target": "simonabramson.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "latam.com",
+   "target": "latamairlines.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "gtranslate.net",
+   "target": "gtranslate.io",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "abovosolutions.eu",
+   "target": "abovosolutions.pl",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "mycityrocks.com",
+   "target": "megaseats.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "embedly.com",
+   "target": "embed.ly",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "157.245.89.14",
+   "target": "academiainsider.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "filmyzilla57.com",
+   "target": "filmyzilla71.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sso-regeneron.com",
+   "target": "registrar-transfers.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "docpit.com",
+   "target": "hugedomains.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "acilebanon.com",
+   "target": "joankermathrealestate.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "storebusinesshours.com",
+   "target": "videoveggie.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "professionz.com",
+   "target": "brandsly.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "tutanota.com",
+   "target": "tuta.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "citytv.com",
+   "target": "citytvplus.ca",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "flextronics.com",
+   "target": "flex.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "windows.com",
+   "target": "microsoft.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "code-and-faces.com",
+   "target": "jasu.dev",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "google.by",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "identifcation.com",
+   "target": "roblox.com",
+   "kind": "redirect",
+   "weight": 2
+  },
+  {
+   "source": "direct.gov.uk",
+   "target": "service.gov.uk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "oferty24.sbs",
+   "target": "allegrolokalnie.pl",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "wpafilmlibrary.com",
+   "target": "mpistockfootage.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "rosettastone.eu",
+   "target": "rosettastone.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "wackradio901fm.com",
+   "target": "keraton4d.store",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "snigelweb.com",
+   "target": "snigel.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "customeriomail.com",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "filmyfly.soy",
+   "target": "filmyfly.army",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "balkanchronicle.com",
+   "target": "baccarat350.co",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ag-techs.com",
+   "target": "scan.page",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "icicibank.com",
+   "target": "bank.in",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "grammarly.net",
+   "target": "grammarly.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "67.207.74.175",
+   "target": "webgriffe.systems",
+   "kind": "redirect",
+   "weight": 2
+  },
+  {
+   "source": "pl-dyu8h.sbs",
+   "target": "allegrolokalnie.pl",
+   "kind": "redirect",
+   "weight": 3
+  },
+  {
+   "source": "mhschool.com",
+   "target": "mheducation.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "keyrow.com",
+   "target": "lnhongxiang.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "udc.es",
+   "target": "udc.gal",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "vorwerk.it",
+   "target": "vorwerk.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "pkg.dev",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "soundestlink.com",
+   "target": "omnisend.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "govoffice3.com",
+   "target": "vanhorne-ia.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ai-bot-line.com",
+   "target": "onamae.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "t.co",
+   "target": "lystem.fr",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "uralschool.ru",
+   "target": "xn--80aaacg3ajc5bedviq9k9b.xn--p1ai",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "the-alcoholism-guide.org",
+   "target": "notogelsydney.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "artfilmfest.sk",
+   "target": "iffartfilm.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "travis-ci.org",
+   "target": "travis-ci.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "caiway.nl",
+   "target": "delta.nl",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "verbraucher-schlichter.de",
+   "target": "universalschlichtungsstelle.de",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "spdx.org",
+   "target": "spdx.dev",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "chow.com",
+   "target": "foodie.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "dream.space",
+   "target": "dreamspace.xyz",
+   "kind": "redirect",
+   "weight": 4
+  },
+  {
+   "source": "adthrive.com",
+   "target": "raptive.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "state.mn.us",
+   "target": "mn.gov",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "cutly.in",
+   "target": "shorturl.asia",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "monsterserver.de",
+   "target": "nitrado.net",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "lordmantis.com",
+   "target": "umraniyeescortt.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "emlnk9.com",
+   "target": "activehosted.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sapsf.eu",
+   "target": "sap.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "adubuildersorangecounty.com",
+   "target": "pawsupdogacademy.co.uk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "pl-5ufkc.sbs",
+   "target": "allegrolokalnie.pl",
+   "kind": "redirect",
+   "weight": 3
+  },
+  {
+   "source": "magic.ly",
+   "target": "magicly.bio",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "google.bi",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "multiply.com",
+   "target": "system1.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "rondebruin.nl",
+   "target": "jkp-ads.com",
+   "kind": "redirect",
+   "weight": 2
+  },
+  {
+   "source": "filmyzilla62.com",
+   "target": "filmyzilla71.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "europages.co.uk",
+   "target": "visable.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sberbank-tele.com",
+   "target": "sbermobile.ru",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "rosyscans.id",
+   "target": "rosyscans.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "thebalancecareers.com",
+   "target": "thebalancemoney.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "slocumthemes.com",
+   "target": "slocumstudio.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "archivopedia.com",
+   "target": "1win-promo-azerbajan.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "freecourtdockets.com",
+   "target": "backgroundchecklookup.com",
+   "kind": "redirect",
+   "weight": 2
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "spybett.net",
+   "target": "1wtz.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "big12hoops.com",
+   "target": "sbnation.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "obsec.us",
+   "target": "obsidiansecurity.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "cloud.us",
+   "target": "citrix.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "172.105.25.169",
+   "target": "engcorp.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "veepee-fr.com",
+   "target": "veepeefr.shop",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "synonym-finder.com",
+   "target": "rtpmansion77.space",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "bitdefender.net",
+   "target": "bitdefender.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "genspark.ai",
+   "target": "gensparkspace.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "snapkit.com",
+   "target": "snap.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "braintreepayments.com",
+   "target": "paypal.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "3m.com",
+   "target": "3mcanada.ca",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "videotron.ca",
+   "target": "videotron.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "lis-skins-cs2.ru",
+   "target": "cshappy.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "aiuedu.org",
+   "target": "kosherbydesignblog.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "skybroadband.com",
+   "target": "sky.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "chippenhampeople.co.uk",
+   "target": "goldcash-freespins.co.uk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "virusradar.com",
+   "target": "welivesecurity.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "californiagoldenblogs.com",
+   "target": "sbnation.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "seatguru.com",
+   "target": "tripadvisor.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "wsenetwork.com",
+   "target": "hugedomains.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "savesyrianow.com",
+   "target": "hugedomains.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "mediaroom.com",
+   "target": "prnewswire.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "srv53.org",
+   "target": "dnshosting.org",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "wdrb.com",
+   "target": "wdrbwave.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "fingerprinting.com",
+   "target": "fingerprintzone.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "pos4dtototogel87.com",
+   "target": "POS4DTOTOTOGEL93.COM",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ultimate-tabs.com",
+   "target": "gotabs.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sso-tangem.com",
+   "target": "registrar-transfers.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "dyestatcal.com",
+   "target": "dyestat.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "netvibes.com",
+   "target": "3ds.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "network54.com",
+   "target": "tapatalk.com",
+   "kind": "redirect",
+   "weight": 2
+  },
+  {
+   "source": "guanyuezhihu-jp.com",
+   "target": "nta.go.jp",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "alwaysdata.net",
+   "target": "alwaysdata.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "nexusbsolutions.cl",
+   "target": "nexusbs.cl",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "macworld.co.uk",
+   "target": "macworld.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "cbslocal.com",
+   "target": "cbsnews.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "lucidchart.com",
+   "target": "lucid.co",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "cdk.com",
+   "target": "cdkglobal.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "probex.ee",
+   "target": "probex-plywood.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "valburtonphot-jp.com",
+   "target": "nta.go.jp",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "helpdesk-ralphlauren.com",
+   "target": "registrar-transfers.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "tu-bs.de",
+   "target": "tu-braunschweig.de",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "telekom.rs",
+   "target": "mts.rs",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "nr-238284sn.rest",
+   "target": "allegrolokalnie.pl",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "lisboapoio.pt",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "csod.com",
+   "target": "cornerstoneondemand.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "worldgolf.com",
+   "target": "golfpass.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "corbina.net",
+   "target": "beeline.ru",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "udmserve.net",
+   "target": "underdogmedia.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "netflixnm.com",
+   "target": "netflixinyourneighborhoodnm.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "google.com.eg",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "betteruptime.com",
+   "target": "betterstack.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "canva.link",
+   "target": "canva.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "catholic.org.au",
+   "target": "catholic.au",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "edenbridgetown.com",
+   "target": "searchmagnet.co.uk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "thingspeak.com",
+   "target": "mathworks.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "newsworks.org",
+   "target": "whyy.org",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ves.io",
+   "target": "f5.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sol-convert.com",
+   "target": "lqic-sas.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "searchspring.net",
+   "target": "searchspring.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "tildacdn.com",
+   "target": "tilda.cc",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "breakingnews.com",
+   "target": "nbcnews.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "mailersend.net",
+   "target": "example.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "musta.ch",
+   "target": "airbnb.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "bonusprint.co.uk",
+   "target": "photobox.co.uk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "139.59.193.8",
+   "target": "narrativemuse.co",
+   "kind": "redirect",
+   "weight": 2
+  },
+  {
+   "source": "evospulse.com",
+   "target": "evospremium.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "catholicherald.co.uk",
+   "target": "thecatholicherald.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "gs.com",
+   "target": "goldmansachs.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "brianthecutter.com",
+   "target": "briangavindiamonds.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "abellabooks.com",
+   "target": "hugedomains.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "1479182-coinbase.com",
+   "target": "haveibeenpwned.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "adingo.jp",
+   "target": "fluct.jp",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ktu.lt",
+   "target": "ktu.edu",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "espacesecu-tehna.com",
+   "target": "lemonde.fr",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "rbfcu.org",
+   "target": "greglowery.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "m-pages.com",
+   "target": "moosend.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "admon.pro",
+   "target": "admon.ai",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "timewarnercable.com",
+   "target": "spectrum.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "elevenia.co.id",
+   "target": "catcher.id",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "project-limelight.com",
+   "target": "limelight.inc",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "comss.one",
+   "target": "comss.ru",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "digitalpacific.com",
+   "target": "digitalpacific.com.au",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "christkindlwirt.at",
+   "target": "baumgartnerhotels.at",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "commerzbank.com",
+   "target": "commerzbank.de",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "awstrack.me",
+   "target": "bit.ly",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "song.link",
+   "target": "odesli.co",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ttax.us",
+   "target": "intuit.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "lifehacker.com.au",
+   "target": "lifehacker.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "igg.me",
+   "target": "indiegogo.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "wisegeek.org",
+   "target": "easytechjunkie.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "paypal.me",
+   "target": "paypal.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "konicaminolta.jp",
+   "target": "konicaminolta.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "accessacloud.com",
+   "target": "theaccessgroup.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "bepress.com",
+   "target": "elsevier.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "cuentosinfantilesadormir.com",
+   "target": "sedo.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "142.93.181.27",
+   "target": "advisorevolved.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "mgln.ai",
+   "target": "magellan.ai",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "google.com.cu",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "windstreambusiness.com",
+   "target": "uniti.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ethancbanks.com",
+   "target": "packetpushers.net",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "exlyapp.com",
+   "target": "myclickfunnels.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "fairfax.com.au",
+   "target": "nine.com.au",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sputniknews.com",
+   "target": "sputnikglobe.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "selfhost.eu",
+   "target": "selfhost.de",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "retargetly.com",
+   "target": "epsilon.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ietf.org",
+   "target": "rfc-editor.org",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ajilon.com",
+   "target": "lhh.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "pocket7games.com",
+   "target": "aviagames.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "gomotorbids.com",
+   "target": "hugedomains.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "espacejeux.com",
+   "target": "lotoquebec.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "auburnjournal.com",
+   "target": "goldmountaincanews.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "4-traders.com",
+   "target": "marketscreener.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "the700level.com",
+   "target": "nbcsportsphiladelphia.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "deltafibernederland.nl",
+   "target": "deltafiber.nl",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "filmyzilla53.com",
+   "target": "filmyzilla71.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "43.159.39.69",
+   "target": "google.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ig.me",
+   "target": "instagram.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "ppt.cc",
+   "target": "redirredirredir.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "onfastspring.com",
+   "target": "fastspring.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "185.183.98.204",
+   "target": "secfall.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "lexisone.com",
+   "target": "lexisnexis.co.uk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "livestrong.com",
+   "target": "everydayhealth.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "suster123rose.com",
+   "target": "suster123suka.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "mhhe.com",
+   "target": "mheducation.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "datacenter.no",
+   "target": "webhuset.no",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "journaldev.com",
+   "target": "digitalocean.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "urbanairship.com",
+   "target": "airship.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "thehost.com.ua",
+   "target": "thehost.ua",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "bustybeauties.com",
+   "target": "hustlerunlimited.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "bifcapnepa-jp.com",
+   "target": "nta.go.jp",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "pmgscc.net",
+   "target": "mgscc.net",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "blogspot.ru",
+   "target": "blogspot.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "nicusa.com",
+   "target": "tylertech.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sedackymilenium.sk",
+   "target": "sedacka.sk",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "login-drivers.com",
+   "target": "tfoumax.fr",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "icefire.in",
+   "target": "icefireappliances.in",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "qcloud.com",
+   "target": "tencent.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "yourhoustonnews.com",
+   "target": "chron.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "shareaholic.net",
+   "target": "shareaholic.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "dns.pt",
+   "target": "pt.pt",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "incapsula.com",
+   "target": "imperva.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "acessocliente.digital",
+   "target": "urldance.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "sailthru.com",
+   "target": "zetaglobal.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "as.me",
+   "target": "acuityscheduling.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "kamicemc.com",
+   "target": "kamic.se",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "inlouwetrust.com",
+   "target": "allaboutthejersey.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "mce-sys.com",
+   "target": "mce.systems",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "joann.com",
+   "target": "michaels.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "io9.com",
+   "target": "gizmodo.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "steves-digicams.com",
+   "target": "dvdtalk.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "Cisco.com",
+   "target": "cisco.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "x-flow.app",
+   "target": "xflowgames.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "telegram.land",
+   "target": "telegram.org",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "linotype.com",
+   "target": "myfonts.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "gitlab.io",
+   "target": "gitlab.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "okhca.org",
+   "target": "oklahoma.gov",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "capebretonpost.com",
+   "target": "saltwire.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "polaris-iot.com",
+   "target": "polaris.ru",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "teletoon.com",
+   "target": "cartoonnetwork.ca",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "eiffage-recrutement.com",
+   "target": "eiffage.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "parispornmovies.com",
+   "target": "lobstertube.com",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "jvf-online.de",
+   "target": "goneo.de",
+   "kind": "redirect",
+   "weight": 1
+  },
+  {
+   "source": "filmyzilla53.com",
+   "target": "filmyzilla57.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "filmyzilla53.com",
+   "target": "filmyzilla62.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "filmyzilla57.com",
+   "target": "filmyzilla62.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "abellabooks.com",
+   "target": "docpit.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "abellabooks.com",
+   "target": "gomotorbids.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "abellabooks.com",
+   "target": "savesyrianow.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "abellabooks.com",
+   "target": "wsenetwork.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "docpit.com",
+   "target": "gomotorbids.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "docpit.com",
+   "target": "savesyrianow.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "docpit.com",
+   "target": "wsenetwork.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "gomotorbids.com",
+   "target": "savesyrianow.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "gomotorbids.com",
+   "target": "wsenetwork.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "savesyrianow.com",
+   "target": "wsenetwork.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "flushpersist.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "google.am",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "google.bi",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "google.by",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "google.com.cu",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "google.com.eg",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "google.am",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "google.bi",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "google.by",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "google.com.cu",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "google.com.eg",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "google.bi",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "google.by",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "google.com.cu",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "google.com.eg",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.bi",
+   "target": "google.by",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.bi",
+   "target": "google.com.cu",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.bi",
+   "target": "google.com.eg",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.bi",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.by",
+   "target": "google.com.cu",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.by",
+   "target": "google.com.eg",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.by",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.com.cu",
+   "target": "google.com.eg",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.com.cu",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "google.com.eg",
+   "target": "lisboapoio.pt",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "helpdesk-ralphlauren.com",
+   "target": "registrar-transfers.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "helpdesk-ralphlauren.com",
+   "target": "sso-tangem.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "registrar-transfers.com",
+   "target": "sso-tangem.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "nr-238284sn.rest",
+   "target": "oferty24.sbs",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "nr-238284sn.rest",
+   "target": "pl-5ufkc.sbs",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "nr-238284sn.rest",
+   "target": "pl-dyu8h.sbs",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "oferty24.sbs",
+   "target": "pl-5ufkc.sbs",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "oferty24.sbs",
+   "target": "pl-dyu8h.sbs",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "pl-5ufkc.sbs",
+   "target": "pl-dyu8h.sbs",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "mheducation.com",
+   "target": "mhhe.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "mheducation.com",
+   "target": "mhschool.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "mhhe.com",
+   "target": "mhschool.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "telegram.land",
+   "target": "telegram.org",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "ig.me",
+   "target": "instagram.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "big12hoops.com",
+   "target": "californiagoldenblogs.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "bitdefender.com",
+   "target": "bitdefender.net",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "braintreepayments.com",
+   "target": "paypal.me",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "bifcapnepa-jp.com",
+   "target": "guanyuezhihu-jp.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "bifcapnepa-jp.com",
+   "target": "valburtonphot-jp.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "guanyuezhihu-jp.com",
+   "target": "valburtonphot-jp.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "awstrack.me",
+   "target": "bit.ly",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "fastspring.com",
+   "target": "onfastspring.com",
+   "kind": "shared_host",
+   "weight": 1
+  },
+  {
+   "source": "1999991-coinbase.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "2012094h84.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "239t829332g.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "273518562.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "2bradesconetmepresas.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "306912coinbase.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "4387167h7hh.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "925389h451.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "938327382939129gfog.sbs",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "BAC-cvnyt.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acces564294.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acesso-juridica.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acesso-principal.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acesso-seguro.app",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessocredisis.uk",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessojuridicointerno.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessojuridicopj.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessonet.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessonet.life",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessonet.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessonternopj.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acessopjnet.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "achievefundraising.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ameknc.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "analysismanagement.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "apinetempresa.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "apo839899.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "apoioexclusivo.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atendepromo.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atendimento-netempresas.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ativacaodechat.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaocadastralpj.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaoecontratos.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaomodulopj.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaoparaempresas.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaopj-topaz.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaopjtopaz.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizacaotopaznetempresa.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizar-empresa.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizarmodulo.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizarnetempresas.app",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizarpj2026.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "atualizepj-topaz.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bablisly.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-bvloh.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-caospa.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-caospan.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-chudcia.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-irtioc.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-iuydfk.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-nbbnm.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-suisfp.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-uytfg.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bac-vcnyd.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bacauifsahf.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bacmrvavoli.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bdll5781735.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bemcaamvoli.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "beneficioslivelox.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "biaprogramadepontos.info",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "binance-zh.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bjzixingche.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bncenlimea.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "boseac-gifts.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bradescoempresapj.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bradescoempresaspj.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bradescogerenciadorpj.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bradesconlineapp.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "cadastrobradescopj.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "cadastrobradescopjatt.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "cadastroxppontos.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "canaisempresas.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "canalcliente.live",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "chatnetexclusivo.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "clientepresent.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "clientepresent.live",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "comagros.my",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "connessione-sicura.online",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "contaprotegida.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "de-12903.cc",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "desktop-wallet.io",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "digitalacessos.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "digitalnetempresa.app",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "digitalnetempresas.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "dkb-im.com.es",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "docu462589.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "dragonway.com.br",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "empresarialsuporte.live",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "empresascorporativonet.chat",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "empresasenegocios.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "empresasnetassistente.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "empresaspjsuporte.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "etapasegura.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "example6.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "exlyapp.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "fbping.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "fiinanzas.blog",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "freuttys.online",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gerenciatopaz.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gerentepainel.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gestaodeempresas.info",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gestaoempresanet.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gestaoweb.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gestaoweb.info",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "grv4571134.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "grv5781752.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gseconsult.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "homebanking-bancoctt.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "hub4571132.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "idself-care.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ionos-datenschutz.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "jimdofree.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "juridicoempresas.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lin999.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lokalna-099171.club",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lokalna-1900191.biz",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lokalna-ofeta3528509.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "m20156241.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "magic.ly",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "mufgplat.biz",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "my-sav-prime.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "mzhpro.co",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "mzhpro.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "n12empresa.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ne12empresa.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ne12empresascontratos.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netatualiza.info",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netatualizaempresa.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netempresarial.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netempresarialsuporte.live",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netempresasatualizar.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netempresasbradesco.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netempresasgerente.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "netpjreapro.info",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "novocadastro.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "oferta271638pl.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "oferta532843.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "oferta780183pl.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "oferty24.sbs",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pjacessoempresarial.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pjappempresas.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pjcanalempresa.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-862634.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-add.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-oferta5194890.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-oferta5821989.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-oferta7358277.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-oferta7358973.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-oferta8920950.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "placenciere-ch.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "plataformapj.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pntsonlineapp.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "portalnetempresas.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "portalnetempresatopaz.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "postfix-dns.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "premioslivex.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pro-dgrfo.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "promojuntostop.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "prowiu127f18.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "rb-rot.xyz",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "rpo328g2.bond",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "sitio-oficial.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "smar8t473291.shop",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "solucoesnetempresas.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "soportevalidacion-ar.es",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ssuporteacessoempresariall.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "supershopf.vip",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "suporte-bia.app",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "suportedigital.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "suportenetempresaspj.net",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "suporteparapj.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "suportepjonline.click",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "suportepjonline.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "telegramch.org",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "thespeedyway.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "topazatendimento.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "topazempresa.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "topazempresa.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "topaznetempresa.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "topazportalonline.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "urge844284.pro",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "validacaodigitalnetempresas.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "vr-spk-connect.digital",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "wasapplus.pk",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "whatsappvips.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "zhichengsoft.com",
+   "target": "struct:bad60e69",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "2gis.ru",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "amen.fr",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "cb2.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "comss.one",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "flextronics.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gentosha-go.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "hentai20.io",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "inlouwetrust.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lavuelta.es",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lockton.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "nominalia.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "slideserve.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "spdx.org",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "tistory.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "tu-bs.de",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "usnews.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "xvideosporno.blog.br",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "accessify.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bcc.kz",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "blueshieldca.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "break.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "canalpuntosafe.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "kontan.co.id",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pressbanner.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "priotopic.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "statsperform.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ed-intra.com",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "flushpersist.com",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "google.am",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "google.bi",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "google.by",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "google.com.cu",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "google.com.eg",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lisboapoio.pt",
+   "target": "struct:b064612b",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "abellabooks.com",
+   "target": "struct:1ac6d1b5",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "docpit.com",
+   "target": "struct:1ac6d1b5",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gomotorbids.com",
+   "target": "struct:1ac6d1b5",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "savesyrianow.com",
+   "target": "struct:1ac6d1b5",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "wsenetwork.com",
+   "target": "struct:1ac6d1b5",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ameritas.com",
+   "target": "struct:c23d6a10",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "artfilmfest.sk",
+   "target": "struct:c23d6a10",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gameinformer.com",
+   "target": "struct:c23d6a10",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pentaho.com",
+   "target": "struct:c23d6a10",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "theicct.org",
+   "target": "struct:c23d6a10",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "demotrans.com.bd",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "outscale.com",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "refinery29.com",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "up.edu.ph",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "walmart.com",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "linkurl.pk",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "roblox.com.bz",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "roblox.gf",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "roblox.gs",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "behindthesteelcurtain.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bigcatcountry.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "mmamania.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "theonlycolors.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "bmc.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "eiffage-recrutement.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "forumotion.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "narcity.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "a10.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "agame.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "mousebreaker.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "devtodev.com",
+   "target": "struct:6d92fa8e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ftmo.com",
+   "target": "struct:6d92fa8e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "gamegene.net",
+   "target": "struct:6d92fa8e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "nr-238284sn.rest",
+   "target": "struct:65c3be4f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-5ufkc.sbs",
+   "target": "struct:65c3be4f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pl-dyu8h.sbs",
+   "target": "struct:65c3be4f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "legalzoom.com",
+   "target": "struct:cd964f73",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "polaranalytics.com",
+   "target": "struct:cd964f73",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "pushowl.com",
+   "target": "struct:cd964f73",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "fairfax.com.au",
+   "target": "struct:7713b5cb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "smoothwall.com",
+   "target": "struct:7713b5cb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "sync.com",
+   "target": "struct:7713b5cb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "africaprint.com",
+   "target": "struct:686b471d",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "rbr.com",
+   "target": "struct:686b471d",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "acilebanon.com",
+   "target": "struct:eb7686b6",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "companydatabase.org",
+   "target": "struct:eb7686b6",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ghbook.ir",
+   "target": "struct:177d31ae",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "resdiary.com",
+   "target": "struct:177d31ae",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "amazon.ae",
+   "target": "struct:0d0cc146",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "amazon.eg",
+   "target": "struct:0d0cc146",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "appleinsider.com",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "itch.io",
+   "target": "struct:fc95ef99",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "ax-binance.com",
+   "target": "struct:1867f76f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "binance-taiwan.com",
+   "target": "struct:1867f76f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "itemfix.com",
+   "target": "struct:83571874",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "tutsplus.com",
+   "target": "struct:83571874",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "charlesandre.com",
+   "target": "struct:65a80353",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "nokia.com",
+   "target": "struct:65a80353",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "dartmouth.edu",
+   "target": "struct:a55bdb38",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "itgbrands.com",
+   "target": "struct:a55bdb38",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "indiabix.com",
+   "target": "struct:ed95b0cd",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "slideshare.net",
+   "target": "struct:ed95b0cd",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "answers.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "wp.pl",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "big12hoops.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "californiagoldenblogs.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "medusainternational.com.np",
+   "target": "struct:ef181939",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "oortstorages.com",
+   "target": "struct:ef181939",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "publicgaming.com",
+   "target": "struct:b7f908fb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "womenshealth.gov",
+   "target": "struct:b7f908fb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "barracudabar-pattaya.com",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "perpetualmotioninc.com",
+   "target": "struct:24193290",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "azcardinals.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "panthers.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "arbada.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "thothd.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "aciprensa.com",
+   "target": "struct:83571874",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "sleepfoundation.org",
+   "target": "struct:83571874",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "breakingnews.com",
+   "target": "struct:b7f908fb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "umaryland.edu",
+   "target": "struct:b7f908fb",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "cursor.com",
+   "target": "struct:be5be69f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "v-binance.com.cn",
+   "target": "struct:be5be69f",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "telegrammac.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "telegramnco.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "208209.xyz",
+   "target": "struct:5e884898",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "yahou2011.com",
+   "target": "struct:5e884898",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "151e-berry.com",
+   "target": "struct:a55bdb38",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "tdejb.com",
+   "target": "struct:a55bdb38",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "edenbridgetown.com",
+   "target": "struct:78ab5436",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "nyi.net",
+   "target": "struct:78ab5436",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "fulldesisex.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "hdhindisex.com",
+   "target": "struct:982d9e3e",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "lagalaxy.com",
+   "target": "struct:83571874",
+   "kind": "shared_structure",
+   "weight": 1
+  },
+  {
+   "source": "mlssoccer.com",
+   "target": "struct:83571874",
+   "kind": "shared_structure",
+   "weight": 1
+  }
+ ],
+ "counts": {
+  "redirect": 242,
+  "shared_host": 63,
+  "shared_structure": 314
+ },
+ "kit_clusters": [
+  {
+   "id": "struct:bad60e69",
+   "domains": [
+    "1999991-coinbase.com",
+    "2012094h84.shop",
+    "239t829332g.shop",
+    "273518562.click",
+    "2bradesconetmepresas.com",
+    "306912coinbase.com",
+    "4387167h7hh.shop",
+    "925389h451.shop",
+    "938327382939129gfog.sbs",
+    "BAC-cvnyt.com",
+    "acces564294.pro",
+    "acesso-juridica.digital",
+    "acesso-principal.com",
+    "acesso-seguro.app",
+    "acessocredisis.uk",
+    "acessojuridicointerno.digital",
+    "acessojuridicopj.digital",
+    "acessonet.digital",
+    "acessonet.life",
+    "acessonet.pro",
+    "acessonternopj.digital",
+    "acessopjnet.click",
+    "achievefundraising.com",
+    "ameknc.com",
+    "analysismanagement.com",
+    "apinetempresa.digital",
+    "apo839899.shop",
+    "apoioexclusivo.com",
+    "atendepromo.pro",
+    "atendimento-netempresas.com",
+    "ativacaodechat.com",
+    "atualizacaocadastralpj.digital",
+    "atualizacaoecontratos.digital",
+    "atualizacaomodulopj.digital",
+    "atualizacaoparaempresas.digital",
+    "atualizacaopj-topaz.com",
+    "atualizacaopjtopaz.com",
+    "atualizacaotopaznetempresa.com",
+    "atualizar-empresa.digital",
+    "atualizarmodulo.com",
+    "atualizarnetempresas.app",
+    "atualizarpj2026.com",
+    "atualizepj-topaz.digital",
+    "bablisly.click",
+    "bac-bvloh.com",
+    "bac-caospa.com",
+    "bac-caospan.com",
+    "bac-chudcia.com",
+    "bac-irtioc.com",
+    "bac-iuydfk.com",
+    "bac-nbbnm.com",
+    "bac-suisfp.com",
+    "bac-uytfg.com",
+    "bac-vcnyd.com",
+    "bacauifsahf.com",
+    "bacmrvavoli.com",
+    "bdll5781735.pro",
+    "bemcaamvoli.com",
+    "beneficioslivelox.com",
+    "biaprogramadepontos.info",
+    "binance-zh.com",
+    "bjzixingche.com",
+    "bncenlimea.com",
+    "boseac-gifts.com",
+    "bradescoempresapj.com",
+    "bradescoempresaspj.com",
+    "bradescogerenciadorpj.com",
+    "bradesconlineapp.com",
+    "cadastrobradescopj.digital",
+    "cadastrobradescopjatt.digital",
+    "cadastroxppontos.com",
+    "canaisempresas.digital",
+    "canalcliente.live",
+    "chatnetexclusivo.digital",
+    "clientepresent.click",
+    "clientepresent.live",
+    "comagros.my",
+    "connessione-sicura.online",
+    "contaprotegida.com",
+    "de-12903.cc",
+    "desktop-wallet.io",
+    "digitalacessos.com",
+    "digitalnetempresa.app",
+    "digitalnetempresas.com",
+    "dkb-im.com.es",
+    "docu462589.pro",
+    "dragonway.com.br",
+    "empresarialsuporte.live",
+    "empresascorporativonet.chat",
+    "empresasenegocios.net",
+    "empresasnetassistente.digital",
+    "empresaspjsuporte.net",
+    "etapasegura.click",
+    "example6.com",
+    "exlyapp.com",
+    "fbping.com",
+    "fiinanzas.blog",
+    "freuttys.online",
+    "gerenciatopaz.digital",
+    "gerentepainel.digital",
+    "gestaodeempresas.info",
+    "gestaoempresanet.pro",
+    "gestaoweb.click",
+    "gestaoweb.info",
+    "grv4571134.pro",
+    "grv5781752.pro",
+    "gseconsult.com",
+    "homebanking-bancoctt.com",
+    "hub4571132.pro",
+    "idself-care.shop",
+    "ionos-datenschutz.com",
+    "jimdofree.com",
+    "juridicoempresas.net",
+    "lin999.com",
+    "lokalna-099171.club",
+    "lokalna-1900191.biz",
+    "lokalna-ofeta3528509.shop",
+    "m20156241.pro",
+    "magic.ly",
+    "mufgplat.biz",
+    "my-sav-prime.com",
+    "mzhpro.co",
+    "mzhpro.com",
+    "n12empresa.net",
+    "ne12empresa.digital",
+    "ne12empresascontratos.digital",
+    "netatualiza.info",
+    "netatualizaempresa.com",
+    "netempresarial.click",
+    "netempresarialsuporte.live",
+    "netempresasatualizar.digital",
+    "netempresasbradesco.net",
+    "netempresasgerente.net",
+    "netpjreapro.info",
+    "novocadastro.digital",
+    "oferta271638pl.click",
+    "oferta532843.click",
+    "oferta780183pl.click",
+    "oferty24.sbs",
+    "pjacessoempresarial.digital",
+    "pjappempresas.click",
+    "pjcanalempresa.digital",
+    "pl-862634.click",
+    "pl-add.shop",
+    "pl-oferta5194890.click",
+    "pl-oferta5821989.shop",
+    "pl-oferta7358277.click",
+    "pl-oferta7358973.click",
+    "pl-oferta8920950.click",
+    "placenciere-ch.com",
+    "plataformapj.click",
+    "pntsonlineapp.com",
+    "portalnetempresas.net",
+    "portalnetempresatopaz.com",
+    "postfix-dns.com",
+    "premioslivex.com",
+    "pro-dgrfo.com",
+    "promojuntostop.click",
+    "prowiu127f18.click",
+    "rb-rot.xyz",
+    "rpo328g2.bond",
+    "sitio-oficial.click",
+    "smar8t473291.shop",
+    "solucoesnetempresas.digital",
+    "soportevalidacion-ar.es",
+    "ssuporteacessoempresariall.com",
+    "supershopf.vip",
+    "suporte-bia.app",
+    "suportedigital.net",
+    "suportenetempresaspj.net",
+    "suporteparapj.digital",
+    "suportepjonline.click",
+    "suportepjonline.pro",
+    "telegramch.org",
+    "thespeedyway.com",
+    "topazatendimento.digital",
+    "topazempresa.digital",
+    "topazempresa.pro",
+    "topaznetempresa.pro",
+    "topazportalonline.digital",
+    "urge844284.pro",
+    "validacaodigitalnetempresas.com",
+    "vr-spk-connect.digital",
+    "wasapplus.pk",
+    "whatsappvips.com",
+    "zhichengsoft.com"
+   ],
+   "size": 186,
+   "form_fingerprint": "bad60e695b11803a",
+   "pages_malicious": 198,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "2gis.ru",
+    "amen.fr",
+    "cb2.com",
+    "comss.one",
+    "flextronics.com",
+    "gentosha-go.com",
+    "hentai20.io",
+    "inlouwetrust.com",
+    "lavuelta.es",
+    "lockton.com",
+    "nominalia.com",
+    "slideserve.com",
+    "spdx.org",
+    "tistory.com",
+    "tu-bs.de",
+    "usnews.com",
+    "xvideosporno.blog.br"
+   ],
+   "size": 17,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 17
+  },
+  {
+   "id": "struct:fc95ef99",
+   "domains": [
+    "accessify.com",
+    "bcc.kz",
+    "blueshieldca.com",
+    "break.com",
+    "canalpuntosafe.com",
+    "kontan.co.id",
+    "pressbanner.com",
+    "priotopic.com",
+    "statsperform.com"
+   ],
+   "size": 9,
+   "form_fingerprint": "fc95ef9910c52993",
+   "pages_malicious": 1,
+   "pages_benign": 8
+  },
+  {
+   "id": "struct:b064612b",
+   "domains": [
+    "ed-intra.com",
+    "flushpersist.com",
+    "google.am",
+    "google.bi",
+    "google.by",
+    "google.com.cu",
+    "google.com.eg",
+    "lisboapoio.pt"
+   ],
+   "size": 8,
+   "form_fingerprint": "b064612b0cf8b2ce",
+   "pages_malicious": 2,
+   "pages_benign": 6
+  },
+  {
+   "id": "struct:1ac6d1b5",
+   "domains": [
+    "abellabooks.com",
+    "docpit.com",
+    "gomotorbids.com",
+    "savesyrianow.com",
+    "wsenetwork.com"
+   ],
+   "size": 5,
+   "form_fingerprint": "1ac6d1b5c4cbe370",
+   "pages_malicious": 1,
+   "pages_benign": 4
+  },
+  {
+   "id": "struct:c23d6a10",
+   "domains": [
+    "ameritas.com",
+    "artfilmfest.sk",
+    "gameinformer.com",
+    "pentaho.com",
+    "theicct.org"
+   ],
+   "size": 5,
+   "form_fingerprint": "c23d6a10b8f17810",
+   "pages_malicious": 0,
+   "pages_benign": 5
+  },
+  {
+   "id": "struct:24193290",
+   "domains": [
+    "demotrans.com.bd",
+    "outscale.com",
+    "refinery29.com",
+    "up.edu.ph",
+    "walmart.com"
+   ],
+   "size": 5,
+   "form_fingerprint": "2419329067823cab",
+   "pages_malicious": 1,
+   "pages_benign": 5
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "linkurl.pk",
+    "roblox.com.bz",
+    "roblox.gf",
+    "roblox.gs"
+   ],
+   "size": 4,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 5,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "behindthesteelcurtain.com",
+    "bigcatcountry.com",
+    "mmamania.com",
+    "theonlycolors.com"
+   ],
+   "size": 4,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 4
+  },
+  {
+   "id": "struct:fc95ef99",
+   "domains": [
+    "bmc.com",
+    "eiffage-recrutement.com",
+    "forumotion.com",
+    "narcity.com"
+   ],
+   "size": 4,
+   "form_fingerprint": "fc95ef9910c52993",
+   "pages_malicious": 1,
+   "pages_benign": 3
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "a10.com",
+    "agame.com",
+    "mousebreaker.com"
+   ],
+   "size": 3,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 3
+  },
+  {
+   "id": "struct:6d92fa8e",
+   "domains": [
+    "devtodev.com",
+    "ftmo.com",
+    "gamegene.net"
+   ],
+   "size": 3,
+   "form_fingerprint": "6d92fa8e156b77a3",
+   "pages_malicious": 1,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:65c3be4f",
+   "domains": [
+    "nr-238284sn.rest",
+    "pl-5ufkc.sbs",
+    "pl-dyu8h.sbs"
+   ],
+   "size": 3,
+   "form_fingerprint": "65c3be4f32934fd4",
+   "pages_malicious": 7,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:cd964f73",
+   "domains": [
+    "legalzoom.com",
+    "polaranalytics.com",
+    "pushowl.com"
+   ],
+   "size": 3,
+   "form_fingerprint": "cd964f73cb0db9dc",
+   "pages_malicious": 0,
+   "pages_benign": 3
+  },
+  {
+   "id": "struct:7713b5cb",
+   "domains": [
+    "fairfax.com.au",
+    "smoothwall.com",
+    "sync.com"
+   ],
+   "size": 3,
+   "form_fingerprint": "7713b5cbd7740bb0",
+   "pages_malicious": 0,
+   "pages_benign": 3
+  },
+  {
+   "id": "struct:686b471d",
+   "domains": [
+    "africaprint.com",
+    "rbr.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "686b471dd8bc725b",
+   "pages_malicious": 1,
+   "pages_benign": 1
+  },
+  {
+   "id": "struct:eb7686b6",
+   "domains": [
+    "acilebanon.com",
+    "companydatabase.org"
+   ],
+   "size": 2,
+   "form_fingerprint": "eb7686b60a59c6a2",
+   "pages_malicious": 1,
+   "pages_benign": 1
+  },
+  {
+   "id": "struct:177d31ae",
+   "domains": [
+    "ghbook.ir",
+    "resdiary.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "177d31aed0b80f0f",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:0d0cc146",
+   "domains": [
+    "amazon.ae",
+    "amazon.eg"
+   ],
+   "size": 2,
+   "form_fingerprint": "0d0cc1461f58da86",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:fc95ef99",
+   "domains": [
+    "appleinsider.com",
+    "itch.io"
+   ],
+   "size": 2,
+   "form_fingerprint": "fc95ef9910c52993",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:1867f76f",
+   "domains": [
+    "ax-binance.com",
+    "binance-taiwan.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "1867f76f89b18a0f",
+   "pages_malicious": 2,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:83571874",
+   "domains": [
+    "itemfix.com",
+    "tutsplus.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "8357187467c9ffb1",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:65a80353",
+   "domains": [
+    "charlesandre.com",
+    "nokia.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "65a80353f0bb06c2",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:a55bdb38",
+   "domains": [
+    "dartmouth.edu",
+    "itgbrands.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "a55bdb383eb6ca0b",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:ed95b0cd",
+   "domains": [
+    "indiabix.com",
+    "slideshare.net"
+   ],
+   "size": 2,
+   "form_fingerprint": "ed95b0cdb69a0a91",
+   "pages_malicious": 0,
+   "pages_benign": 3
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "answers.com",
+    "wp.pl"
+   ],
+   "size": 2,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "big12hoops.com",
+    "californiagoldenblogs.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:ef181939",
+   "domains": [
+    "medusainternational.com.np",
+    "oortstorages.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "ef1819399a510f7c",
+   "pages_malicious": 2,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:b7f908fb",
+   "domains": [
+    "publicgaming.com",
+    "womenshealth.gov"
+   ],
+   "size": 2,
+   "form_fingerprint": "b7f908fb93913459",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:24193290",
+   "domains": [
+    "barracudabar-pattaya.com",
+    "perpetualmotioninc.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "2419329067823cab",
+   "pages_malicious": 2,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "azcardinals.com",
+    "panthers.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "arbada.com",
+    "thothd.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:83571874",
+   "domains": [
+    "aciprensa.com",
+    "sleepfoundation.org"
+   ],
+   "size": 2,
+   "form_fingerprint": "8357187467c9ffb1",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:b7f908fb",
+   "domains": [
+    "breakingnews.com",
+    "umaryland.edu"
+   ],
+   "size": 2,
+   "form_fingerprint": "b7f908fb93913459",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:be5be69f",
+   "domains": [
+    "cursor.com",
+    "v-binance.com.cn"
+   ],
+   "size": 2,
+   "form_fingerprint": "be5be69f55e91af2",
+   "pages_malicious": 1,
+   "pages_benign": 1
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "telegrammac.com",
+    "telegramnco.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 2,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:5e884898",
+   "domains": [
+    "208209.xyz",
+    "yahou2011.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "5e884898da280471",
+   "pages_malicious": 2,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:a55bdb38",
+   "domains": [
+    "151e-berry.com",
+    "tdejb.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "a55bdb383eb6ca0b",
+   "pages_malicious": 2,
+   "pages_benign": 0
+  },
+  {
+   "id": "struct:78ab5436",
+   "domains": [
+    "edenbridgetown.com",
+    "nyi.net"
+   ],
+   "size": 2,
+   "form_fingerprint": "78ab5436fe6f6d68",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:982d9e3e",
+   "domains": [
+    "fulldesisex.com",
+    "hdhindisex.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "982d9e3eb996f559",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  },
+  {
+   "id": "struct:83571874",
+   "domains": [
+    "lagalaxy.com",
+    "mlssoccer.com"
+   ],
+   "size": 2,
+   "form_fingerprint": "8357187467c9ffb1",
+   "pages_malicious": 0,
+   "pages_benign": 2
+  }
+ ],
+ "kit_cluster_count": 41,
+ "kit_pairs_compared": 26614,
+ "node_count": 763,
+ "edge_count": 619,
+ "missing_edge_types": {
+  "same_ip_resolved": "requires DNS resolution, which URLGuard does not do",
+  "same_nameserver": "requires DNS resolution",
+  "same_registrant": "requires WHOIS data, which is not collected",
+  "same_asn": "requires IP-to-ASN mapping, which is not collected",
+  "same_certificate": "requires certificate transparency logs, not collected"
+ },
+ "limitation": "Built only from relationships observable in recorded page fetches and structural fingerprints. It carries no DNS, WHOIS, ASN or certificate data, so absence of an edge is not evidence that two domains are unrelated."
+}

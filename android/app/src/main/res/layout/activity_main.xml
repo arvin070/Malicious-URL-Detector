@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL Guard"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="18dp"
+            android:textSize="13sp"
+            android:text="On-device phishing detection. Links are scored from the URL text alone — nothing is ever fetched, resolved or sent off this phone." />
+
+        <!-- ================= link layer ================= -->
+        <Switch
+            android:id="@+id/link_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Check links I tap" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:textSize="12sp"
+            android:text="Full URL is available, so the full 122-feature model runs.\nMeasured ROC-AUC 0.958 ± 0.011 (domain-aware 5-fold CV)." />
+
+        <Button
+            android:id="@+id/default_browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set URL Guard as default browser" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="18dp"
+            android:textSize="12sp"
+            android:text="Optional, but without it Android shows a chooser each time instead of checking automatically. Safe links are passed straight through to your real browser." />
+
+        <!-- ================= dns layer ================= -->
+        <Switch
+            android:id="@+id/dns_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Check DNS lookups (background)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="18dp"
+            android:textSize="12sp"
+            android:text="Covers every app, including URLs typed into a browser. But HTTPS hides the path, so this only sees the HOSTNAME and uses a separate, much weaker model: ROC-AUC 0.764 ± 0.021.\n\nIt blocks only at score ≥ 0.95, where roughly 1 benign domain in 300 is wrongly blocked and about 17% of bad hostnames are caught. Treat it as a coarse net, not the main defence.\n\nUses Android&apos;s VPN slot, so other VPN apps cannot run at the same time." />
+
+        <!-- ================= manual test ================= -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check a URL"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/test_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="http://secure-paypal-login.tk/verify/9231"
+            android:importantForAutofill="no"
+            android:inputType="textUri"
+            android:maxLines="3" />
+
+        <Button
+            android:id="@+id/test_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score it" />
+
+        <TextView
+            android:id="@+id/test_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingTop="8dp"
+            android:paddingBottom="18dp"
+            android:textSize="12sp" />
+
+        <!-- ================= history ================= -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recently checked"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingTop="8dp"
+            android:paddingBottom="12dp"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clear_history"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Clear history" />
+
+            <Button
+                android:id="@+id/clear_allow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Clear trusted" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

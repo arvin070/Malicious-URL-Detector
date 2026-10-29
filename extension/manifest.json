@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AI Phishing URL Guard",
+  "version": "1.0.0",
+  "description": "Automatically checks every site you visit against the trained AI model and warns you before a phishing/malicious page loads.",
+  "permissions": ["webNavigation", "tabs", "storage"],
+  "host_permissions": ["http://127.0.0.1:5000/*", "http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["warning.html", "warning.css", "warning.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
